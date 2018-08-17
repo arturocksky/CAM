@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6915F7EF212522670084BB18 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7EC212522640084BB18 /* number3.png */; };
+		6915F7F0212522670084BB18 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7ED212522650084BB18 /* number1.png */; };
+		6915F7F1212522670084BB18 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7EE212522660084BB18 /* number2.png */; };
 		6953CFB721224ADA0061B7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953CFB621224ADA0061B7EE /* AppDelegate.swift */; };
 		6953CFB921224ADA0061B7EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953CFB821224ADA0061B7EE /* ViewController.swift */; };
 		6953CFBC21224ADA0061B7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6953CFBA21224ADA0061B7EE /* Main.storyboard */; };
 		6953CFBE21224ADD0061B7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6953CFBD21224ADD0061B7EE /* Assets.xcassets */; };
 		6953CFC121224ADD0061B7EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6953CFBF21224ADD0061B7EE /* LaunchScreen.storyboard */; };
+		698C4EDE21236AF0003E4CDD /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 698C4EDC21236AEF003E4CDD /* menu.png */; };
+		698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 698C4EDD21236AF0003E4CDD /* logo-cam.png */; };
+		6997116A2123588D0018FC19 /* ViewControllerInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699711692123588D0018FC19 /* ViewControllerInicio.swift */; };
+		6997116C212361BE0018FC19 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6997116B212361BE0018FC19 /* MenuTableViewController.swift */; };
+		69A070BB21267707000A14DA /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070BA21267707000A14DA /* ViewControllerRegistro.swift */; };
+		69A070BD21267738000A14DA /* ViewControllerSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070BC21267738000A14DA /* ViewControllerSesion.swift */; };
+		69A070BF21267755000A14DA /* ViewControllerPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070BE21267755000A14DA /* ViewControllerPerfil.swift */; };
+		69A070C121267769000A14DA /* ViewControllerPrivacidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070C021267769000A14DA /* ViewControllerPrivacidad.swift */; };
+		69A070C3212677EB000A14DA /* ViewControllerResultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070C2212677EB000A14DA /* ViewControllerResultados.swift */; };
+		69A070C52126787E000A14DA /* TableViewControllerCuestionarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070C42126787E000A14DA /* TableViewControllerCuestionarios.swift */; };
+		69A070C721267E53000A14DA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A070C621267E52000A14DA /* settings.png */; };
+		69B8E95921261BDE007D9554 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95721261BDD007D9554 /* logout.png */; };
+		69B8E95A21261BDE007D9554 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95821261BDD007D9554 /* user.png */; };
+		69F30E36212745D20087BE3F /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E34212745CE0087BE3F /* rec.png */; };
+		69F30E37212745D20087BE3F /* rec1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E35212745D10087BE3F /* rec1.png */; };
+		8972AFCE79F083147C2BE2CD /* Pods_CAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15E66396DF0394EFD3148889 /* Pods-CAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAM.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAM/Pods-CAM.release.xcconfig"; sourceTree = "<group>"; };
+		3D311EFA4AF51A010CB21FCA /* Pods-CAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAM/Pods-CAM.debug.xcconfig"; sourceTree = "<group>"; };
+		6915F7EC212522640084BB18 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = "<group>"; };
+		6915F7ED212522650084BB18 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = "<group>"; };
+		6915F7EE212522660084BB18 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = "<group>"; };
 		6953CFB321224ADA0061B7EE /* CAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6953CFB621224ADA0061B7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6953CFB821224ADA0061B7EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,22 @@
 		6953CFBD21224ADD0061B7EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6953CFC021224ADD0061B7EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6953CFC221224ADD0061B7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698C4EDC21236AEF003E4CDD /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		698C4EDD21236AF0003E4CDD /* logo-cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-cam.png"; sourceTree = "<group>"; };
+		699711692123588D0018FC19 /* ViewControllerInicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInicio.swift; sourceTree = "<group>"; };
+		6997116B212361BE0018FC19 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		69A070BA21267707000A14DA /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
+		69A070BC21267738000A14DA /* ViewControllerSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSesion.swift; sourceTree = "<group>"; };
+		69A070BE21267755000A14DA /* ViewControllerPerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPerfil.swift; sourceTree = "<group>"; };
+		69A070C021267769000A14DA /* ViewControllerPrivacidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPrivacidad.swift; sourceTree = "<group>"; };
+		69A070C2212677EB000A14DA /* ViewControllerResultados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResultados.swift; sourceTree = "<group>"; };
+		69A070C42126787E000A14DA /* TableViewControllerCuestionarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerCuestionarios.swift; sourceTree = "<group>"; };
+		69A070C621267E52000A14DA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		69B8E95721261BDD007D9554 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		69B8E95821261BDD007D9554 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		69F30E34212745CE0087BE3F /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
+		69F30E35212745D10087BE3F /* rec1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec1.png; sourceTree = "<group>"; };
+		78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8972AFCE79F083147C2BE2CD /* Pods_CAM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1809F792A28E2586B34250E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6953CFAA21224ADA0061B7EE = {
 			isa = PBXGroup;
 			children = (
 				6953CFB521224ADA0061B7EE /* CAM */,
 				6953CFB421224ADA0061B7EE /* Products */,
+				C820A604C2DFC86B85252F68 /* Pods */,
+				1809F792A28E2586B34250E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,41 @@
 		6953CFB521224ADA0061B7EE /* CAM */ = {
 			isa = PBXGroup;
 			children = (
+				698C4EDD21236AF0003E4CDD /* logo-cam.png */,
+				698C4EDC21236AEF003E4CDD /* menu.png */,
+				6915F7ED212522650084BB18 /* number1.png */,
+				6915F7EE212522660084BB18 /* number2.png */,
+				6915F7EC212522640084BB18 /* number3.png */,
+				69B8E95721261BDD007D9554 /* logout.png */,
+				69B8E95821261BDD007D9554 /* user.png */,
+				69A070C621267E52000A14DA /* settings.png */,
+				69F30E34212745CE0087BE3F /* rec.png */,
+				69F30E35212745D10087BE3F /* rec1.png */,
 				6953CFB621224ADA0061B7EE /* AppDelegate.swift */,
 				6953CFB821224ADA0061B7EE /* ViewController.swift */,
 				6953CFBA21224ADA0061B7EE /* Main.storyboard */,
 				6953CFBD21224ADD0061B7EE /* Assets.xcassets */,
 				6953CFBF21224ADD0061B7EE /* LaunchScreen.storyboard */,
 				6953CFC221224ADD0061B7EE /* Info.plist */,
+				699711692123588D0018FC19 /* ViewControllerInicio.swift */,
+				6997116B212361BE0018FC19 /* MenuTableViewController.swift */,
+				69A070BA21267707000A14DA /* ViewControllerRegistro.swift */,
+				69A070BC21267738000A14DA /* ViewControllerSesion.swift */,
+				69A070BE21267755000A14DA /* ViewControllerPerfil.swift */,
+				69A070C021267769000A14DA /* ViewControllerPrivacidad.swift */,
+				69A070C2212677EB000A14DA /* ViewControllerResultados.swift */,
+				69A070C42126787E000A14DA /* TableViewControllerCuestionarios.swift */,
 			);
 			path = CAM;
+			sourceTree = "<group>";
+		};
+		C820A604C2DFC86B85252F68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D311EFA4AF51A010CB21FCA /* Pods-CAM.debug.xcconfig */,
+				15E66396DF0394EFD3148889 /* Pods-CAM.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6953CFC521224ADD0061B7EE /* Build configuration list for PBXNativeTarget "CAM" */;
 			buildPhases = (
+				344F6ED59FB51D23BABAF6B8 /* [CP] Check Pods Manifest.lock */,
 				6953CFAF21224ADA0061B7EE /* Sources */,
 				6953CFB021224ADA0061B7EE /* Frameworks */,
 				6953CFB121224ADA0061B7EE /* Resources */,
+				8016FAA3FCDBF4685004DEBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +202,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F30E36212745D20087BE3F /* rec.png in Resources */,
+				698C4EDE21236AF0003E4CDD /* menu.png in Resources */,
+				6915F7F1212522670084BB18 /* number2.png in Resources */,
+				698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */,
+				69A070C721267E53000A14DA /* settings.png in Resources */,
+				6915F7F0212522670084BB18 /* number1.png in Resources */,
+				6915F7EF212522670084BB18 /* number3.png in Resources */,
 				6953CFC121224ADD0061B7EE /* LaunchScreen.storyboard in Resources */,
+				69B8E95A21261BDE007D9554 /* user.png in Resources */,
 				6953CFBE21224ADD0061B7EE /* Assets.xcassets in Resources */,
 				6953CFBC21224ADA0061B7EE /* Main.storyboard in Resources */,
+				69F30E37212745D20087BE3F /* rec1.png in Resources */,
+				69B8E95921261BDE007D9554 /* logout.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		344F6ED59FB51D23BABAF6B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8016FAA3FCDBF4685004DEBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CAM/Pods-CAM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SidebarOverlay/SidebarOverlay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidebarOverlay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CAM/Pods-CAM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6953CFAF21224ADA0061B7EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6997116C212361BE0018FC19 /* MenuTableViewController.swift in Sources */,
+				69A070BB21267707000A14DA /* ViewControllerRegistro.swift in Sources */,
 				6953CFB921224ADA0061B7EE /* ViewController.swift in Sources */,
+				6997116A2123588D0018FC19 /* ViewControllerInicio.swift in Sources */,
+				69A070C52126787E000A14DA /* TableViewControllerCuestionarios.swift in Sources */,
 				6953CFB721224ADA0061B7EE /* AppDelegate.swift in Sources */,
+				69A070BD21267738000A14DA /* ViewControllerSesion.swift in Sources */,
+				69A070C3212677EB000A14DA /* ViewControllerResultados.swift in Sources */,
+				69A070BF21267755000A14DA /* ViewControllerPerfil.swift in Sources */,
+				69A070C121267769000A14DA /* ViewControllerPrivacidad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +417,12 @@
 		};
 		6953CFC621224ADD0061B7EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D311EFA4AF51A010CB21FCA /* Pods-CAM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CAM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,16 +430,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.economia.CAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6953CFC721224ADD0061B7EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E66396DF0394EFD3148889 /* Pods-CAM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CAM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.economia.CAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
