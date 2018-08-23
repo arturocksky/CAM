@@ -30,6 +30,7 @@
 		69B8E95A21261BDE007D9554 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95821261BDD007D9554 /* user.png */; };
 		69F30E36212745D20087BE3F /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E34212745CE0087BE3F /* rec.png */; };
 		69F30E37212745D20087BE3F /* rec1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E35212745D10087BE3F /* rec1.png */; };
+		79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ABCE1D212F6FA300AD190C /* UNAM_logo.png */; };
 		8972AFCE79F083147C2BE2CD /* Pods_CAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		69F30E34212745CE0087BE3F /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
 		69F30E35212745D10087BE3F /* rec1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec1.png; sourceTree = "<group>"; };
 		78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ABCE1D212F6FA300AD190C /* UNAM_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNAM_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		6953CFB521224ADA0061B7EE /* CAM */ = {
 			isa = PBXGroup;
 			children = (
+				79ABCE1D212F6FA300AD190C /* UNAM_logo.png */,
 				698C4EDD21236AF0003E4CDD /* logo-cam.png */,
 				698C4EDC21236AEF003E4CDD /* menu.png */,
 				6915F7ED212522650084BB18 /* number1.png */,
@@ -213,6 +216,7 @@
 				69B8E95A21261BDE007D9554 /* user.png in Resources */,
 				6953CFBE21224ADD0061B7EE /* Assets.xcassets in Resources */,
 				6953CFBC21224ADA0061B7EE /* Main.storyboard in Resources */,
+				79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */,
 				69F30E37212745D20087BE3F /* rec1.png in Resources */,
 				69B8E95921261BDE007D9554 /* logout.png in Resources */,
 			);
@@ -421,13 +425,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96AXA585D4;
 				INFOPLIST_FILE = CAM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.economia.CAM;
+				PRODUCT_BUNDLE_IDENTIFIER = matias.fructuoso.CAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -440,13 +445,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96AXA585D4;
 				INFOPLIST_FILE = CAM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.economia.CAM;
+				PRODUCT_BUNDLE_IDENTIFIER = matias.fructuoso.CAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -521,7 +521,7 @@
                                             </label>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ksb-zB-gLW">
                                                 <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                <state key="normal" title="Button" image="rec1.png"/>
+                                                <state key="normal" image="rec1.png"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -536,7 +536,7 @@
                                             </label>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TL-yU-JTW">
                                                 <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                <state key="normal" title="Button" image="rec1.png"/>
+                                                <state key="normal" image="rec1.png"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -551,7 +551,7 @@
                                             </label>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0v-cr-9Jm">
                                                 <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                <state key="normal" title="Button" image="rec1.png"/>
+                                                <state key="normal" image="rec1.png"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -739,7 +739,7 @@
                                             </label>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xb-4P-Y4u">
                                                 <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                <state key="normal" title="Button" image="rec1.png"/>
+                                                <state key="normal" image="rec1.png"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -754,7 +754,7 @@
                                             </label>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzL-EP-P7K">
                                                 <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                <state key="normal" title="Button" image="rec1.png"/>
+                                                <state key="normal" image="rec1.png"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -769,7 +769,7 @@
                                             </label>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDW-kb-hWh">
                                                 <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                <state key="normal" title="Button" image="rec1.png"/>
+                                                <state key="normal" image="rec1.png"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -1152,6 +1152,7 @@
         <image name="user.png" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="NWG-sG-voi"/>
         <segue reference="ME2-WN-wLE"/>
         <segue reference="NDt-03-XaB"/>
         <segue reference="Ft3-7N-5Gk"/>
