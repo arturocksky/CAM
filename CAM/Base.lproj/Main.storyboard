@@ -362,7 +362,7 @@
                                                 <rect key="frame" x="0.0" y="33" width="160" height="34"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="x6z-X6-Lub"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="x6z-X6-Lub"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="Iniciar Sesion">
@@ -376,7 +376,7 @@
                                                 <rect key="frame" x="160" y="33" width="160" height="34"/>
                                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="J2b-2J-zU0"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="J2b-2J-zU0"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="Registro">
@@ -389,7 +389,7 @@
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="Hd6-nR-8ce"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="Hd6-nR-8ce"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -1077,6 +1077,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bq9-EW-Ldk"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="hM1-J8-Y3s" id="8xb-QB-znR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oQt-Cp-ysl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1152,7 +1155,6 @@
         <image name="user.png" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NWG-sG-voi"/>
         <segue reference="ME2-WN-wLE"/>
         <segue reference="NDt-03-XaB"/>
         <segue reference="Ft3-7N-5Gk"/>

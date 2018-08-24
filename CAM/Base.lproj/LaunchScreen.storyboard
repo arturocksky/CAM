@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,52 +15,56 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cam.economia.unam.mx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNy-13-Zan">
-                                <rect key="frame" x="81" y="456" width="213" height="24"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pCJ-cd-4fi">
+                                <rect key="frame" x="50" y="195" width="210" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="UNAM_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="6K8-4U-kv0">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="90" id="6uG-7D-DaB"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="90" id="FcK-tX-lZp"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logo-cam.png" translatesAutoresizingMaskIntoConstraints="NO" id="ILU-K6-6oU">
+                                        <rect key="frame" x="120" y="0.0" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="90" id="IFX-6r-CkA"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="90" id="TAo-tO-SVG"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6K8-4U-kv0" firstAttribute="top" secondItem="ILU-K6-6oU" secondAttribute="top" id="FvH-td-ap8"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cam.economia.unam.mx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNy-13-Zan">
+                                <rect key="frame" x="30" y="305" width="213" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.48236214540468147" blue="0.13985236517727517" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Frase de bienvenida" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUe-sw-XDL">
-                                <rect key="frame" x="67" y="488" width="240" height="92"/>
+                                <rect key="frame" x="30" y="337" width="213" height="56"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pCJ-cd-4fi">
-                                <rect key="frame" x="52" y="263" width="270" height="141"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UNAM_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="6K8-4U-kv0">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="141"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="mnj-Er-X8d"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-cam.png" translatesAutoresizingMaskIntoConstraints="NO" id="ILU-K6-6oU">
-                                        <rect key="frame" x="150" y="0.0" width="120" height="141"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="6K8-4U-kv0" firstAttribute="top" secondItem="ILU-K6-6oU" secondAttribute="top" id="FvH-td-ap8"/>
-                                    <constraint firstItem="6K8-4U-kv0" firstAttribute="top" secondItem="pCJ-cd-4fi" secondAttribute="top" id="jUQ-mH-wXE"/>
-                                </constraints>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="pCJ-cd-4fi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="COO-Qw-ye8"/>
-                            <constraint firstItem="uUe-sw-XDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="F23-1C-YSZ"/>
-                            <constraint firstItem="cNy-13-Zan" firstAttribute="top" secondItem="pCJ-cd-4fi" secondAttribute="bottom" constant="52" id="NDk-3u-jUY"/>
-                            <constraint firstItem="pCJ-cd-4fi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UIo-tO-lsz"/>
-                            <constraint firstItem="pCJ-cd-4fi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="243" id="fsj-NX-GFL"/>
+                            <constraint firstItem="pCJ-cd-4fi" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="COO-Qw-ye8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cNy-13-Zan" secondAttribute="trailing" constant="30" id="Ctq-XI-2Ku"/>
+                            <constraint firstItem="cNy-13-Zan" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="RjW-sC-0mj"/>
+                            <constraint firstItem="uUe-sw-XDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="X9X-Hz-BCj"/>
                             <constraint firstItem="uUe-sw-XDL" firstAttribute="top" secondItem="cNy-13-Zan" secondAttribute="bottom" constant="8" symbolic="YES" id="hWA-wU-ezc"/>
                             <constraint firstItem="pCJ-cd-4fi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pIa-i5-lcp"/>
-                            <constraint firstItem="cNy-13-Zan" firstAttribute="centerX" secondItem="uUe-sw-XDL" secondAttribute="centerX" id="pPb-93-BpD"/>
-                            <constraint firstItem="pCJ-cd-4fi" firstAttribute="centerX" secondItem="cNy-13-Zan" secondAttribute="centerX" id="u5X-0S-M2r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="pCJ-cd-4fi" secondAttribute="trailing" constant="50" id="pry-X4-ofm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uUe-sw-XDL" secondAttribute="trailing" constant="30" id="vAb-7q-d7M"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uUe-sw-XDL" secondAttribute="bottom" constant="87" id="zNh-79-BFz"/>
+                            <constraint firstItem="cNy-13-Zan" firstAttribute="top" secondItem="pCJ-cd-4fi" secondAttribute="bottom" constant="20" id="zhS-nN-Dvr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

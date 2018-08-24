@@ -10,10 +10,16 @@ import UIKit
 
 class ViewControllerResultados: UIViewController {
 
+    
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        guard let url = URL(string: "https://cam.economia.unam.mx")
+            else { return }
+        webView.loadRequest( URLRequest(url: url) )
     }
 
     override func didReceiveMemoryWarning() {
