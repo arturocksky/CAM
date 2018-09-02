@@ -9,7 +9,15 @@
 /* Begin PBXBuildFile section */
 		6905F94B2135147200CEC69E /* AlimentosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905F94A2135147200CEC69E /* AlimentosCollectionViewController.swift */; };
 		6905F94D2135158800CEC69E /* AlimentoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905F94C2135158800CEC69E /* AlimentoCollectionViewCell.swift */; };
-		6907547F2139036300953A8D /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 6907547E2139036000953A8D /* apple.png */; };
+		6907547F2139036300953A8D /* Manzana.png in Resources */ = {isa = PBXBuildFile; fileRef = 6907547E2139036000953A8D /* Manzana.png */; };
+		690F2D84213B5D2900290D41 /* Jitomate Saladette.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D83213B5D2900290D41 /* Jitomate Saladette.png */; };
+		690F2D86213B5F7800290D41 /* Lechuga Orejona.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D85213B5F7800290D41 /* Lechuga Orejona.png */; };
+		690F2D88213B60C900290D41 /* Cebolla Blanca.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D87213B60C800290D41 /* Cebolla Blanca.png */; };
+		690F2D8B213B618500290D41 /* Zanahoria.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D89213B618400290D41 /* Zanahoria.png */; };
+		690F2D8C213B618500290D41 /* Lechuga Romana.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D8A213B618500290D41 /* Lechuga Romana.png */; };
+		690F2D8E213B68AC00290D41 /* Papa Blanca.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D8D213B68AC00290D41 /* Papa Blanca.png */; };
+		690F2D90213B69EA00290D41 /* Aguacate Hass.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D8F213B69EA00290D41 /* Aguacate Hass.png */; };
+		690F2D92213B6AC700290D41 /* Chile Serrano.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D91213B6AC600290D41 /* Chile Serrano.png */; };
 		6915F7EF212522670084BB18 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7EC212522640084BB18 /* number3.png */; };
 		6915F7F0212522670084BB18 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7ED212522650084BB18 /* number1.png */; };
 		6915F7F1212522670084BB18 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7EE212522660084BB18 /* number2.png */; };
@@ -42,7 +50,15 @@
 		3D311EFA4AF51A010CB21FCA /* Pods-CAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAM/Pods-CAM.debug.xcconfig"; sourceTree = "<group>"; };
 		6905F94A2135147200CEC69E /* AlimentosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentosCollectionViewController.swift; sourceTree = "<group>"; };
 		6905F94C2135158800CEC69E /* AlimentoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimentoCollectionViewCell.swift; sourceTree = "<group>"; };
-		6907547E2139036000953A8D /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		6907547E2139036000953A8D /* Manzana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Manzana.png; sourceTree = "<group>"; };
+		690F2D83213B5D2900290D41 /* Jitomate Saladette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jitomate Saladette.png"; sourceTree = "<group>"; };
+		690F2D85213B5F7800290D41 /* Lechuga Orejona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lechuga Orejona.png"; sourceTree = "<group>"; };
+		690F2D87213B60C800290D41 /* Cebolla Blanca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cebolla Blanca.png"; sourceTree = "<group>"; };
+		690F2D89213B618400290D41 /* Zanahoria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zanahoria.png; sourceTree = "<group>"; };
+		690F2D8A213B618500290D41 /* Lechuga Romana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lechuga Romana.png"; sourceTree = "<group>"; };
+		690F2D8D213B68AC00290D41 /* Papa Blanca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Papa Blanca.png"; sourceTree = "<group>"; };
+		690F2D8F213B69EA00290D41 /* Aguacate Hass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aguacate Hass.png"; sourceTree = "<group>"; };
+		690F2D91213B6AC600290D41 /* Chile Serrano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chile Serrano.png"; sourceTree = "<group>"; };
 		6915F7EC212522640084BB18 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = "<group>"; };
 		6915F7ED212522650084BB18 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = "<group>"; };
 		6915F7EE212522660084BB18 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = "<group>"; };
@@ -92,6 +108,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		690F2D82213B502600290D41 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				6907547E2139036000953A8D /* Manzana.png */,
+				690F2D83213B5D2900290D41 /* Jitomate Saladette.png */,
+				690F2D85213B5F7800290D41 /* Lechuga Orejona.png */,
+				690F2D87213B60C800290D41 /* Cebolla Blanca.png */,
+				690F2D89213B618400290D41 /* Zanahoria.png */,
+				690F2D8A213B618500290D41 /* Lechuga Romana.png */,
+				690F2D8D213B68AC00290D41 /* Papa Blanca.png */,
+				690F2D8F213B69EA00290D41 /* Aguacate Hass.png */,
+				690F2D91213B6AC600290D41 /* Chile Serrano.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		6953CFAA21224ADA0061B7EE = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +145,7 @@
 		6953CFB521224ADA0061B7EE /* CAM */ = {
 			isa = PBXGroup;
 			children = (
+				690F2D82213B502600290D41 /* img */,
 				79ABCE1D212F6FA300AD190C /* UNAM_logo.png */,
 				698C4EDD21236AF0003E4CDD /* logo-cam.png */,
 				698C4EDC21236AEF003E4CDD /* menu.png */,
@@ -124,7 +157,6 @@
 				69A070C621267E52000A14DA /* settings.png */,
 				69F30E34212745CE0087BE3F /* rec.png */,
 				69F30E35212745D10087BE3F /* rec1.png */,
-				6907547E2139036000953A8D /* apple.png */,
 				6953CFB621224ADA0061B7EE /* AppDelegate.swift */,
 				6953CFB821224ADA0061B7EE /* ViewController.swift */,
 				6953CFBA21224ADA0061B7EE /* Main.storyboard */,
@@ -214,19 +246,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690F2D84213B5D2900290D41 /* Jitomate Saladette.png in Resources */,
 				69F30E36212745D20087BE3F /* rec.png in Resources */,
 				698C4EDE21236AF0003E4CDD /* menu.png in Resources */,
 				6915F7F1212522670084BB18 /* number2.png in Resources */,
 				698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */,
-				6907547F2139036300953A8D /* apple.png in Resources */,
+				690F2D8E213B68AC00290D41 /* Papa Blanca.png in Resources */,
+				6907547F2139036300953A8D /* Manzana.png in Resources */,
 				69A070C721267E53000A14DA /* settings.png in Resources */,
+				690F2D88213B60C900290D41 /* Cebolla Blanca.png in Resources */,
+				690F2D8B213B618500290D41 /* Zanahoria.png in Resources */,
 				6915F7F0212522670084BB18 /* number1.png in Resources */,
 				6915F7EF212522670084BB18 /* number3.png in Resources */,
+				690F2D92213B6AC700290D41 /* Chile Serrano.png in Resources */,
 				6953CFC121224ADD0061B7EE /* LaunchScreen.storyboard in Resources */,
 				69B8E95A21261BDE007D9554 /* user.png in Resources */,
 				6953CFBE21224ADD0061B7EE /* Assets.xcassets in Resources */,
 				6953CFBC21224ADA0061B7EE /* Main.storyboard in Resources */,
+				690F2D86213B5F7800290D41 /* Lechuga Orejona.png in Resources */,
+				690F2D8C213B618500290D41 /* Lechuga Romana.png in Resources */,
 				79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */,
+				690F2D90213B69EA00290D41 /* Aguacate Hass.png in Resources */,
 				69F30E37212745D20087BE3F /* rec1.png in Resources */,
 				69B8E95921261BDE007D9554 /* logout.png in Resources */,
 			);

@@ -10,9 +10,9 @@ import UIKit
 
 private let reuseIdentifier = "reuseIdentifier"
 
-class AlimentosCollectionViewController: UICollectionViewController {
+class AlimentosCollectionViewController: UICollectionViewController, UIPickerViewDelegate{
     
-    let Alimentos:[String] = ["Manzana","Naranja","Pera","Guayaba","Melon","Papaya","Sandia","Kiwi","Platano","Tuna","Aguacate"]
+    let Alimentos:[String] = ["Tomate Verde","Zanahoria","Calabacita","Papa Blanca","Aguacate Hass","Lechuga Romana","Lechuga Orejona","Cebolla Blanca","Chile Serrano","Jitomate Saladette","Limon sin Semilla","Chicharo","Ejote","Pepino","Chile Poblano","Naranja","Piña","Papaya","Platano Tabasco","Manzana","Higado de Res","Bistec de Res","Retazo de Res","Pollo Entero","Pechuga de Pollo","Pierna con Muslo","Retazo de Pollo Maciza-Pierna","Pescado Sierra","Lentejas","Frijol Bayo","Arroz","Sopa de Pasta","Aceite","Sardina","Atun en Agua/Aceite","Sal Refinada","Azucar Estandar","Cafe","Leche Pasteurizada","Leche Liconsa","Queso Blanco","Agua","Agua","Pan Dulce","Bolillo","Tortilla de Maiz","Jabon de Tocador","Detergente en Polvo","Nopales","Huevo","Papel Higienico"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,11 +58,52 @@ class AlimentosCollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! AlimentoCollectionViewCell
         
         cell.outLabelAlimento.text = Alimentos[indexPath.row]
-        cell.outImageAlimento.image = #imageLiteral(resourceName: "apple.png")
+        cell.outImageAlimento.image = UIImage(named: "\(Alimentos[indexPath.row]).png")
         // Configure the cell
+        
+        // add a border
+        cell.layer.borderColor = UIColor.gray.cgColor
+        cell.layer.borderWidth = 1
+        cell.layer.cornerRadius = 8 // optional
+        cell.contentView.layer.masksToBounds = true;
+        
+        cell.layer.shadowColor = UIColor.darkGray.cgColor
+        cell.layer.shadowOffset = CGSize(width:0,height: 2.0)
+        cell.layer.shadowRadius = 2.0
+        cell.layer.shadowOpacity = 1.0
+        cell.layer.masksToBounds = false;
+        cell.layer.shadowPath = UIBezierPath(roundedRect:cell.bounds, cornerRadius:cell.contentView.layer.cornerRadius).cgPath
+
     
         return cell
     }
+    
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let alert = UIAlertController(title: "Picker View", message: "Hi", preferredStyle: .actionSheet)
+        
+        alert.isModalInPopover = true
+        
+        let pickerFrame = UIPickerView(frame: CGRect(x: 5, y: 20, width:  300, height: 90)) // CGRectMake(left, top, width, height) - left and top are like margins
+        pickerFrame.tag = 555
+        //set the pickers datasource and delegate
+        pickerFrame.delegate = self
+       // pickerFrame.numberOfRows(inComponent: 5)
+        //pickerFrame.setValuesForKeys(["hi" : 1])
+        
+        //Add the picker to the alert controller
+        alert.view.addSubview(pickerFrame)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            //Perform Action
+        })
+        alert.addAction(okAction)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
+        alert.addAction(cancelAction)
+        self.parent!.present(alert, animated: true)
+    }
+    
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         if kind == UICollectionElementKindSectionHeader {
