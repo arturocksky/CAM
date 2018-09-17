@@ -97,18 +97,22 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-          let image = UIImage (named: "\(Alimentos[indexPath.row]).png")
+        let image = UIImage (named: "\(Alimentos[indexPath.row])L.png")
+        
+       
         
         let alertView = UIAlertController(
             title: Alimentos[indexPath.row],
             message: "\n\n\n\n\n\n\n\n\n",
             preferredStyle: .alert)
+        
+       // image?.draw(in: CGRect(x: 20, y: 70, width:100 , height: 100))
       
-        //alertView.addImage(image: image)
+        alertView.addImage(image: image!)
         
         let pickerView = UIPickerView(frame:
             CGRect(x: 0, y: 50, width: 260, height: 162))
-       // pickerView.dataSource = self as! UIPickerViewDataSource
+       
         pickerView.delegate = self
         pickerView.dataSource = self
         

@@ -21,6 +21,7 @@
 		6915F7EF212522670084BB18 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7EC212522640084BB18 /* number3.png */; };
 		6915F7F0212522670084BB18 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7ED212522650084BB18 /* number1.png */; };
 		6915F7F1212522670084BB18 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7EE212522660084BB18 /* number2.png */; };
+		69400A51214F6D940084A313 /* ZanahoriaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69400A50214F6D940084A313 /* ZanahoriaL.png */; };
 		6953CFB721224ADA0061B7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953CFB621224ADA0061B7EE /* AppDelegate.swift */; };
 		6953CFB921224ADA0061B7EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953CFB821224ADA0061B7EE /* ViewController.swift */; };
 		6953CFBC21224ADA0061B7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6953CFBA21224ADA0061B7EE /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 698C4EDD21236AF0003E4CDD /* logo-cam.png */; };
 		6997116A2123588D0018FC19 /* ViewControllerInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699711692123588D0018FC19 /* ViewControllerInicio.swift */; };
 		6997116C212361BE0018FC19 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6997116B212361BE0018FC19 /* MenuTableViewController.swift */; };
+		699DD838214F5CDA00ADBFDA /* AlertController+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699DD837214F5CDA00ADBFDA /* AlertController+image.swift */; };
 		69A070BB21267707000A14DA /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070BA21267707000A14DA /* ViewControllerRegistro.swift */; };
 		69A070BD21267738000A14DA /* ViewControllerSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070BC21267738000A14DA /* ViewControllerSesion.swift */; };
 		69A070BF21267755000A14DA /* ViewControllerPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070BE21267755000A14DA /* ViewControllerPerfil.swift */; };
@@ -62,6 +64,7 @@
 		6915F7EC212522640084BB18 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = "<group>"; };
 		6915F7ED212522650084BB18 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = "<group>"; };
 		6915F7EE212522660084BB18 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = "<group>"; };
+		69400A50214F6D940084A313 /* ZanahoriaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZanahoriaL.png; sourceTree = "<group>"; };
 		6953CFB321224ADA0061B7EE /* CAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6953CFB621224ADA0061B7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6953CFB821224ADA0061B7EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		698C4EDD21236AF0003E4CDD /* logo-cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-cam.png"; sourceTree = "<group>"; };
 		699711692123588D0018FC19 /* ViewControllerInicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInicio.swift; sourceTree = "<group>"; };
 		6997116B212361BE0018FC19 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		699DD837214F5CDA00ADBFDA /* AlertController+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+image.swift"; sourceTree = "<group>"; };
 		69A070BA21267707000A14DA /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
 		69A070BC21267738000A14DA /* ViewControllerSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSesion.swift; sourceTree = "<group>"; };
 		69A070BE21267755000A14DA /* ViewControllerPerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPerfil.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				690F2D8D213B68AC00290D41 /* Papa Blanca.png */,
 				690F2D8F213B69EA00290D41 /* Aguacate Hass.png */,
 				690F2D91213B6AC600290D41 /* Chile Serrano.png */,
+				69400A50214F6D940084A313 /* ZanahoriaL.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				69A070C621267E52000A14DA /* settings.png */,
 				69F30E34212745CE0087BE3F /* rec.png */,
 				69F30E35212745D10087BE3F /* rec1.png */,
+				699DD837214F5CDA00ADBFDA /* AlertController+image.swift */,
 				6953CFB621224ADA0061B7EE /* AppDelegate.swift */,
 				6953CFB821224ADA0061B7EE /* ViewController.swift */,
 				6953CFBA21224ADA0061B7EE /* Main.storyboard */,
@@ -248,6 +254,7 @@
 			files = (
 				690F2D84213B5D2900290D41 /* Jitomate Saladette.png in Resources */,
 				69F30E36212745D20087BE3F /* rec.png in Resources */,
+				69400A51214F6D940084A313 /* ZanahoriaL.png in Resources */,
 				698C4EDE21236AF0003E4CDD /* menu.png in Resources */,
 				6915F7F1212522670084BB18 /* number2.png in Resources */,
 				698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */,
@@ -332,6 +339,7 @@
 				69A070C3212677EB000A14DA /* ViewControllerResultados.swift in Sources */,
 				69A070BF21267755000A14DA /* ViewControllerPerfil.swift in Sources */,
 				69A070C121267769000A14DA /* ViewControllerPrivacidad.swift in Sources */,
+				699DD838214F5CDA00ADBFDA /* AlertController+image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
