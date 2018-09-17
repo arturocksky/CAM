@@ -10,7 +10,23 @@ import UIKit
 
 private let reuseIdentifier = "reuseIdentifier"
 
-class AlimentosCollectionViewController: UICollectionViewController, UIPickerViewDelegate{
+class AlimentosCollectionViewController: UICollectionViewController, UIPickerViewDelegate,UIPickerViewDataSource{
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 2
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return 99
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        if component == 0 {
+            return "$ \(row)"
+        } else {
+            return ". \(row)"
+        }
+    }
+    
     
     let Alimentos:[String] = ["Tomate Verde","Zanahoria","Calabacita","Papa Blanca","Aguacate Hass","Lechuga Romana","Lechuga Orejona","Cebolla Blanca","Chile Serrano","Jitomate Saladette","Limon sin Semilla","Chicharo","Ejote","Pepino","Chile Poblano","Naranja","Piña","Papaya","Platano Tabasco","Manzana","Higado de Res","Bistec de Res","Retazo de Res","Pollo Entero","Pechuga de Pollo","Pierna con Muslo","Retazo de Pollo Maciza-Pierna","Pescado Sierra","Lentejas","Frijol Bayo","Arroz","Sopa de Pasta","Aceite","Sardina","Atun en Agua/Aceite","Sal Refinada","Azucar Estandar","Cafe","Leche Pasteurizada","Leche Liconsa","Queso Blanco","Agua","Agua","Pan Dulce","Bolillo","Tortilla de Maiz","Jabon de Tocador","Detergente en Polvo","Nopales","Huevo","Papel Higienico"]
 
@@ -81,6 +97,38 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+          let image = UIImage (named: "\(Alimentos[indexPath.row]).png")
+        
+        let alertView = UIAlertController(
+            title: Alimentos[indexPath.row],
+            message: "\n\n\n\n\n\n\n\n\n",
+            preferredStyle: .alert)
+      
+        //alertView.addImage(image: image)
+        
+        let pickerView = UIPickerView(frame:
+            CGRect(x: 0, y: 50, width: 260, height: 162))
+       // pickerView.dataSource = self as! UIPickerViewDataSource
+        pickerView.delegate = self
+        pickerView.dataSource = self
+        
+        // comment this line to use white color
+        pickerView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.2)
+        
+    //    pickerView.numberOfRows(inComponent: 2)
+        
+      //  pickerView.view(forRow: 1, forComponent: 1)
+        
+        alertView.view.addSubview(pickerView)
+        
+        let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil)
+        
+        alertView.addAction(action)
+       // present(alertView, animated: true, completion: { _ in pickerView.frame.size.width = alertView.view.frame.size.width
+        self.parent!.present(alertView, animated: true)
+        
+        
+        /*
         let alert = UIAlertController(title: "Picker View", message: "Hi", preferredStyle: .actionSheet)
         
         alert.isModalInPopover = true
@@ -89,7 +137,7 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         pickerFrame.tag = 555
         //set the pickers datasource and delegate
         pickerFrame.delegate = self
-       // pickerFrame.numberOfRows(inComponent: 5)
+        //pickerFrame.numberOfRows(inComponent: 1)
         //pickerFrame.setValuesForKeys(["hi" : 1])
         
         //Add the picker to the alert controller
@@ -101,7 +149,7 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         alert.addAction(okAction)
         let cancelAction = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
         alert.addAction(cancelAction)
-        self.parent!.present(alert, animated: true)
+        self.parent!.present(alert, animated: true)  */
     }
     
     
