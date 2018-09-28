@@ -18,10 +18,46 @@
 		690F2D8E213B68AC00290D41 /* Papa Blanca.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D8D213B68AC00290D41 /* Papa Blanca.png */; };
 		690F2D90213B69EA00290D41 /* Aguacate Hass.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D8F213B69EA00290D41 /* Aguacate Hass.png */; };
 		690F2D92213B6AC700290D41 /* Chile Serrano.png in Resources */ = {isa = PBXBuildFile; fileRef = 690F2D91213B6AC600290D41 /* Chile Serrano.png */; };
+		690FE1D5215E879D003DCB66 /* Atun en Agua o AceiteL.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE1D3215E879C003DCB66 /* Atun en Agua o AceiteL.png */; };
+		690FE1D6215E879D003DCB66 /* Atun en Agua o Aceite.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE1D4215E879D003DCB66 /* Atun en Agua o Aceite.png */; };
+		690FE1D9215E884B003DCB66 /* Sal RefinadaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE1D7215E884B003DCB66 /* Sal RefinadaL.png */; };
+		690FE1DA215E884B003DCB66 /* Sal Refinada.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE1D8215E884B003DCB66 /* Sal Refinada.png */; };
+		690FE1DD215E8B1F003DCB66 /* Azucar Estandar.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE1DB215E8B1F003DCB66 /* Azucar Estandar.png */; };
+		690FE1DE215E8B1F003DCB66 /* Azucar EstandarL.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE1DC215E8B1F003DCB66 /* Azucar EstandarL.png */; };
+		690FE1E1215E8BCA003DCB66 /* CafeL.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE1DF215E8BCA003DCB66 /* CafeL.png */; };
+		690FE1E2215E8BCA003DCB66 /* Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE1E0215E8BCA003DCB66 /* Cafe.png */; };
 		6915F7EF212522670084BB18 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7EC212522640084BB18 /* number3.png */; };
 		6915F7F0212522670084BB18 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7ED212522650084BB18 /* number1.png */; };
 		6915F7F1212522670084BB18 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6915F7EE212522660084BB18 /* number2.png */; };
 		69400A51214F6D940084A313 /* ZanahoriaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69400A50214F6D940084A313 /* ZanahoriaL.png */; };
+		694AA03A215E8E280035475B /* Leche Pasteurizada.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA038215E8E270035475B /* Leche Pasteurizada.png */; };
+		694AA03B215E8E280035475B /* Leche PasteutizadaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA039215E8E280035475B /* Leche PasteutizadaL.png */; };
+		694AA03E215E8F530035475B /* Leche Liconsa.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA03C215E8F520035475B /* Leche Liconsa.png */; };
+		694AA03F215E8F530035475B /* Leche LiconsaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA03D215E8F530035475B /* Leche LiconsaL.png */; };
+		694AA042215E8FBA0035475B /* Queso BlancoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA040215E8FBA0035475B /* Queso BlancoL.png */; };
+		694AA043215E8FBA0035475B /* Queso Blanco.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA041215E8FBA0035475B /* Queso Blanco.png */; };
+		694AA046215E90B10035475B /* AguaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA044215E90B10035475B /* AguaL.png */; };
+		694AA047215E90B10035475B /* Agua.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA045215E90B10035475B /* Agua.png */; };
+		694AA04A215E917A0035475B /* Pan Dulce.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA048215E91790035475B /* Pan Dulce.png */; };
+		694AA04B215E917A0035475B /* Pan DulceL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA049215E917A0035475B /* Pan DulceL.png */; };
+		694AA04E215E921A0035475B /* Bolillo.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA04C215E92190035475B /* Bolillo.png */; };
+		694AA04F215E921A0035475B /* BolilloL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA04D215E92190035475B /* BolilloL.png */; };
+		694AA052215E92C90035475B /* Tortilla de Maiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA050215E92C80035475B /* Tortilla de Maiz.png */; };
+		694AA053215E92C90035475B /* Tortilla de MaizL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA051215E92C80035475B /* Tortilla de MaizL.png */; };
+		694AA056215E93AB0035475B /* Jabon de TocadorL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA054215E93AB0035475B /* Jabon de TocadorL.png */; };
+		694AA057215E93AB0035475B /* Jabon de Tocador.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA055215E93AB0035475B /* Jabon de Tocador.png */; };
+		694AA05A215E94E60035475B /* Detergente en PolvoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA058215E94E50035475B /* Detergente en PolvoL.png */; };
+		694AA05B215E94E60035475B /* Detergente en Polvo.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA059215E94E50035475B /* Detergente en Polvo.png */; };
+		694AA05E215E957A0035475B /* Huevo.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA05C215E95790035475B /* Huevo.png */; };
+		694AA05F215E957A0035475B /* HuevoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA05D215E95790035475B /* HuevoL.png */; };
+		694AA062215E96120035475B /* NopalesL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA060215E96110035475B /* NopalesL.png */; };
+		694AA063215E96120035475B /* Nopales.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA061215E96110035475B /* Nopales.png */; };
+		694AA066215E96920035475B /* Papel Higienico.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA064215E96910035475B /* Papel Higienico.png */; };
+		694AA067215E96920035475B /* Papel HigienicoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA065215E96920035475B /* Papel HigienicoL.png */; };
+		694AA06A215E97000035475B /* Tomate VerdeL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA068215E96FF0035475B /* Tomate VerdeL.png */; };
+		694AA06B215E97000035475B /* Tomate Verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA069215E97000035475B /* Tomate Verde.png */; };
+		694AA06E215E97FE0035475B /* CalabacitaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA06C215E97FD0035475B /* CalabacitaL.png */; };
+		694AA06F215E97FE0035475B /* Calabacita.png in Resources */ = {isa = PBXBuildFile; fileRef = 694AA06D215E97FE0035475B /* Calabacita.png */; };
 		6953CFB721224ADA0061B7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953CFB621224ADA0061B7EE /* AppDelegate.swift */; };
 		6953CFB921224ADA0061B7EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953CFB821224ADA0061B7EE /* ViewController.swift */; };
 		6953CFBC21224ADA0061B7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6953CFBA21224ADA0061B7EE /* Main.storyboard */; };
@@ -115,10 +151,46 @@
 		690F2D8D213B68AC00290D41 /* Papa Blanca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Papa Blanca.png"; sourceTree = "<group>"; };
 		690F2D8F213B69EA00290D41 /* Aguacate Hass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aguacate Hass.png"; sourceTree = "<group>"; };
 		690F2D91213B6AC600290D41 /* Chile Serrano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chile Serrano.png"; sourceTree = "<group>"; };
+		690FE1D3215E879C003DCB66 /* Atun en Agua o AceiteL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atun en Agua o AceiteL.png"; sourceTree = "<group>"; };
+		690FE1D4215E879D003DCB66 /* Atun en Agua o Aceite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Atun en Agua o Aceite.png"; sourceTree = "<group>"; };
+		690FE1D7215E884B003DCB66 /* Sal RefinadaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sal RefinadaL.png"; sourceTree = "<group>"; };
+		690FE1D8215E884B003DCB66 /* Sal Refinada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sal Refinada.png"; sourceTree = "<group>"; };
+		690FE1DB215E8B1F003DCB66 /* Azucar Estandar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Azucar Estandar.png"; sourceTree = "<group>"; };
+		690FE1DC215E8B1F003DCB66 /* Azucar EstandarL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Azucar EstandarL.png"; sourceTree = "<group>"; };
+		690FE1DF215E8BCA003DCB66 /* CafeL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CafeL.png; sourceTree = "<group>"; };
+		690FE1E0215E8BCA003DCB66 /* Cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cafe.png; sourceTree = "<group>"; };
 		6915F7EC212522640084BB18 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = "<group>"; };
 		6915F7ED212522650084BB18 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = "<group>"; };
 		6915F7EE212522660084BB18 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = "<group>"; };
 		69400A50214F6D940084A313 /* ZanahoriaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZanahoriaL.png; sourceTree = "<group>"; };
+		694AA038215E8E270035475B /* Leche Pasteurizada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leche Pasteurizada.png"; sourceTree = "<group>"; };
+		694AA039215E8E280035475B /* Leche PasteutizadaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leche PasteutizadaL.png"; sourceTree = "<group>"; };
+		694AA03C215E8F520035475B /* Leche Liconsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leche Liconsa.png"; sourceTree = "<group>"; };
+		694AA03D215E8F530035475B /* Leche LiconsaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leche LiconsaL.png"; sourceTree = "<group>"; };
+		694AA040215E8FBA0035475B /* Queso BlancoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Queso BlancoL.png"; sourceTree = "<group>"; };
+		694AA041215E8FBA0035475B /* Queso Blanco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Queso Blanco.png"; sourceTree = "<group>"; };
+		694AA044215E90B10035475B /* AguaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AguaL.png; sourceTree = "<group>"; };
+		694AA045215E90B10035475B /* Agua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Agua.png; sourceTree = "<group>"; };
+		694AA048215E91790035475B /* Pan Dulce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pan Dulce.png"; sourceTree = "<group>"; };
+		694AA049215E917A0035475B /* Pan DulceL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pan DulceL.png"; sourceTree = "<group>"; };
+		694AA04C215E92190035475B /* Bolillo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bolillo.png; sourceTree = "<group>"; };
+		694AA04D215E92190035475B /* BolilloL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BolilloL.png; sourceTree = "<group>"; };
+		694AA050215E92C80035475B /* Tortilla de Maiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tortilla de Maiz.png"; sourceTree = "<group>"; };
+		694AA051215E92C80035475B /* Tortilla de MaizL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tortilla de MaizL.png"; sourceTree = "<group>"; };
+		694AA054215E93AB0035475B /* Jabon de TocadorL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jabon de TocadorL.png"; sourceTree = "<group>"; };
+		694AA055215E93AB0035475B /* Jabon de Tocador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jabon de Tocador.png"; sourceTree = "<group>"; };
+		694AA058215E94E50035475B /* Detergente en PolvoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Detergente en PolvoL.png"; sourceTree = "<group>"; };
+		694AA059215E94E50035475B /* Detergente en Polvo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Detergente en Polvo.png"; sourceTree = "<group>"; };
+		694AA05C215E95790035475B /* Huevo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Huevo.png; sourceTree = "<group>"; };
+		694AA05D215E95790035475B /* HuevoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HuevoL.png; sourceTree = "<group>"; };
+		694AA060215E96110035475B /* NopalesL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NopalesL.png; sourceTree = "<group>"; };
+		694AA061215E96110035475B /* Nopales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nopales.png; sourceTree = "<group>"; };
+		694AA064215E96910035475B /* Papel Higienico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Papel Higienico.png"; sourceTree = "<group>"; };
+		694AA065215E96920035475B /* Papel HigienicoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Papel HigienicoL.png"; sourceTree = "<group>"; };
+		694AA068215E96FF0035475B /* Tomate VerdeL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tomate VerdeL.png"; sourceTree = "<group>"; };
+		694AA069215E97000035475B /* Tomate Verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tomate Verde.png"; sourceTree = "<group>"; };
+		694AA06C215E97FD0035475B /* CalabacitaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalabacitaL.png; sourceTree = "<group>"; };
+		694AA06D215E97FE0035475B /* Calabacita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calabacita.png; sourceTree = "<group>"; };
 		6953CFB321224ADA0061B7EE /* CAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6953CFB621224ADA0061B7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6953CFB821224ADA0061B7EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -223,6 +295,42 @@
 		690F2D82213B502600290D41 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				694AA06D215E97FE0035475B /* Calabacita.png */,
+				694AA06C215E97FD0035475B /* CalabacitaL.png */,
+				694AA069215E97000035475B /* Tomate Verde.png */,
+				694AA068215E96FF0035475B /* Tomate VerdeL.png */,
+				694AA064215E96910035475B /* Papel Higienico.png */,
+				694AA065215E96920035475B /* Papel HigienicoL.png */,
+				694AA061215E96110035475B /* Nopales.png */,
+				694AA060215E96110035475B /* NopalesL.png */,
+				694AA05C215E95790035475B /* Huevo.png */,
+				694AA05D215E95790035475B /* HuevoL.png */,
+				694AA059215E94E50035475B /* Detergente en Polvo.png */,
+				694AA058215E94E50035475B /* Detergente en PolvoL.png */,
+				694AA055215E93AB0035475B /* Jabon de Tocador.png */,
+				694AA054215E93AB0035475B /* Jabon de TocadorL.png */,
+				694AA050215E92C80035475B /* Tortilla de Maiz.png */,
+				694AA051215E92C80035475B /* Tortilla de MaizL.png */,
+				694AA04C215E92190035475B /* Bolillo.png */,
+				694AA04D215E92190035475B /* BolilloL.png */,
+				694AA048215E91790035475B /* Pan Dulce.png */,
+				694AA049215E917A0035475B /* Pan DulceL.png */,
+				694AA045215E90B10035475B /* Agua.png */,
+				694AA044215E90B10035475B /* AguaL.png */,
+				694AA040215E8FBA0035475B /* Queso BlancoL.png */,
+				694AA041215E8FBA0035475B /* Queso Blanco.png */,
+				694AA03C215E8F520035475B /* Leche Liconsa.png */,
+				694AA03D215E8F530035475B /* Leche LiconsaL.png */,
+				694AA038215E8E270035475B /* Leche Pasteurizada.png */,
+				694AA039215E8E280035475B /* Leche PasteutizadaL.png */,
+				690FE1E0215E8BCA003DCB66 /* Cafe.png */,
+				690FE1DF215E8BCA003DCB66 /* CafeL.png */,
+				690FE1DB215E8B1F003DCB66 /* Azucar Estandar.png */,
+				690FE1DC215E8B1F003DCB66 /* Azucar EstandarL.png */,
+				690FE1D8215E884B003DCB66 /* Sal Refinada.png */,
+				690FE1D7215E884B003DCB66 /* Sal RefinadaL.png */,
+				690FE1D4215E879D003DCB66 /* Atun en Agua o Aceite.png */,
+				690FE1D3215E879C003DCB66 /* Atun en Agua o AceiteL.png */,
 				69E63E51215DDBDB00885284 /* Sardina.png */,
 				69E63E52215DDBDC00885284 /* SardinaL.png */,
 				69E63E4D215DD7C100885284 /* Aceite.png */,
@@ -420,13 +528,20 @@
 				69E63E39215DD1C500885284 /* Pechuga de Pollo.png in Resources */,
 				69E63E23215DC6D100885284 /* Bistec de ResL.png in Resources */,
 				69E63E50215DD7C200885284 /* AceiteL.png in Resources */,
+				694AA05F215E957A0035475B /* HuevoL.png in Resources */,
+				694AA03B215E8E280035475B /* Leche PasteutizadaL.png in Resources */,
 				69E63E27215DC7A900885284 /* Retazo de ResL.png in Resources */,
 				69E63E3B215DD1C500885284 /* LentejasL.png in Resources */,
+				690FE1D6215E879D003DCB66 /* Atun en Agua o Aceite.png in Resources */,
+				690FE1D9215E884B003DCB66 /* Sal RefinadaL.png in Resources */,
+				694AA04E215E921A0035475B /* Bolillo.png in Resources */,
 				69E63E28215DC7A900885284 /* Retazo de Res.png in Resources */,
 				690F2D84213B5D2900290D41 /* Jitomate Saladette.png in Resources */,
 				69E63DF0215DB41B00885284 /* Cebolla BlancaL.png in Resources */,
+				690FE1DD215E8B1F003DCB66 /* Azucar Estandar.png in Resources */,
 				69E63DEF215DB41B00885284 /* Lechuga RomanaL.png in Resources */,
 				69F30E36212745D20087BE3F /* rec.png in Resources */,
+				694AA042215E8FBA0035475B /* Queso BlancoL.png in Resources */,
 				69E63E54215DDBDE00885284 /* SardinaL.png in Resources */,
 				69400A51214F6D940084A313 /* ZanahoriaL.png in Resources */,
 				698C4EDE21236AF0003E4CDD /* menu.png in Resources */,
@@ -436,38 +551,63 @@
 				69E63E08215DC03E00885284 /* Pepino.png in Resources */,
 				6915F7F1212522670084BB18 /* number2.png in Resources */,
 				69E63E32215DD0C100885284 /* Retazo de Pollo Maciza-Pierna.png in Resources */,
+				694AA062215E96120035475B /* NopalesL.png in Resources */,
+				690FE1D5215E879D003DCB66 /* Atun en Agua o AceiteL.png in Resources */,
 				69E63E3C215DD1C500885284 /* Pechuga de PolloL.png in Resources */,
 				69E63E2B215DC88400885284 /* Pollo Entero.png in Resources */,
 				69E63E34215DD0C100885284 /* Pierna con MusloL.png in Resources */,
+				694AA063215E96120035475B /* Nopales.png in Resources */,
 				698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */,
 				69E63E13215DC3DE00885284 /* Piña.png in Resources */,
 				69E63E4F215DD7C200885284 /* Aceite.png in Resources */,
 				69E63E03215DBF5900885284 /* Ejote.png in Resources */,
 				69E63E53215DDBDE00885284 /* Sardina.png in Resources */,
 				69E63E0B215DC17A00885284 /* Chile Poblano.png in Resources */,
+				694AA03A215E8E280035475B /* Leche Pasteurizada.png in Resources */,
 				69E63E24215DC6D100885284 /* Bistec de Res.png in Resources */,
+				690FE1E1215E8BCA003DCB66 /* CafeL.png in Resources */,
 				69E63DEE215DB41B00885284 /* Lechuga OrejonaL.png in Resources */,
 				690F2D8E213B68AC00290D41 /* Papa Blanca.png in Resources */,
 				69E63DF1215DB41B00885284 /* Chile SerranoL.png in Resources */,
+				694AA05B215E94E60035475B /* Detergente en Polvo.png in Resources */,
+				694AA057215E93AB0035475B /* Jabon de Tocador.png in Resources */,
+				690FE1E2215E8BCA003DCB66 /* Cafe.png in Resources */,
 				6907547F2139036300953A8D /* Manzana.png in Resources */,
+				694AA047215E90B10035475B /* Agua.png in Resources */,
+				694AA03E215E8F530035475B /* Leche Liconsa.png in Resources */,
 				69E63E4C215DD69B00885284 /* Sopa de PastaL.png in Resources */,
 				69E63E10215DC2E800885284 /* NaranjaL.png in Resources */,
+				694AA052215E92C90035475B /* Tortilla de Maiz.png in Resources */,
 				69E63DF3215DB41B00885284 /* Papa BlancaL.png in Resources */,
 				69A070C721267E53000A14DA /* settings.png in Resources */,
 				69E63E17215DC45000885284 /* Papaya.png in Resources */,
+				694AA066215E96920035475B /* Papel Higienico.png in Resources */,
+				694AA043215E8FBA0035475B /* Queso Blanco.png in Resources */,
 				69E63E1F215DC61500885284 /* Higado de Res.png in Resources */,
+				694AA067215E96920035475B /* Papel HigienicoL.png in Resources */,
 				690F2D88213B60C900290D41 /* Cebolla Blanca.png in Resources */,
+				694AA046215E90B10035475B /* AguaL.png in Resources */,
+				694AA056215E93AB0035475B /* Jabon de TocadorL.png in Resources */,
+				694AA06E215E97FE0035475B /* CalabacitaL.png in Resources */,
+				690FE1DE215E8B1F003DCB66 /* Azucar EstandarL.png in Resources */,
+				694AA06B215E97000035475B /* Tomate Verde.png in Resources */,
 				690F2D8B213B618500290D41 /* Zanahoria.png in Resources */,
 				69E63E3F215DD26F00885284 /* Frijol BayoL.png in Resources */,
 				69E63E0C215DC17A00885284 /* Chile PoblanoL.png in Resources */,
 				69E63DED215DB41B00885284 /* Jitomate SaladetteL.png in Resources */,
 				69E63E43215DD4DA00885284 /* Pescado Sierra.png in Resources */,
+				694AA06F215E97FE0035475B /* Calabacita.png in Resources */,
+				690FE1DA215E884B003DCB66 /* Sal Refinada.png in Resources */,
+				694AA03F215E8F530035475B /* Leche LiconsaL.png in Resources */,
 				69E63DFA215DBBBE00885284 /* Limon sin Semilla.png in Resources */,
+				694AA04F215E921A0035475B /* BolilloL.png in Resources */,
 				6915F7F0212522670084BB18 /* number1.png in Resources */,
 				69E63DFD215DBC8600885284 /* Chicharo.png in Resources */,
 				69E63DFE215DBC8600885284 /* ChicharoL.png in Resources */,
+				694AA053215E92C90035475B /* Tortilla de MaizL.png in Resources */,
 				69E63E14215DC3DE00885284 /* PiñaL.png in Resources */,
 				69E63E2C215DC88400885284 /* Pollo EnteroL.png in Resources */,
+				694AA04A215E917A0035475B /* Pan Dulce.png in Resources */,
 				6915F7EF212522670084BB18 /* number3.png in Resources */,
 				690F2D92213B6AC700290D41 /* Chile Serrano.png in Resources */,
 				6953CFC121224ADD0061B7EE /* LaunchScreen.storyboard in Resources */,
@@ -479,6 +619,7 @@
 				69E63E00215DBD2300885284 /* Aguacate HassL.png in Resources */,
 				690F2D86213B5F7800290D41 /* Lechuga Orejona.png in Resources */,
 				69E63E3A215DD1C500885284 /* Lentejas.png in Resources */,
+				694AA05E215E957A0035475B /* Huevo.png in Resources */,
 				69E63DF9215DBBBE00885284 /* Limon sin SemillaL.png in Resources */,
 				690F2D8C213B618500290D41 /* Lechuga Romana.png in Resources */,
 				69E63E40215DD26F00885284 /* Frijol Bayo.png in Resources */,
@@ -486,12 +627,15 @@
 				69E63E33215DD0C100885284 /* Retazo de Pollo Maciza-PiernaL.png in Resources */,
 				69E63DF2215DB41B00885284 /* ManzanaL.png in Resources */,
 				79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */,
+				694AA04B215E917A0035475B /* Pan DulceL.png in Resources */,
 				690F2D90213B69EA00290D41 /* Aguacate Hass.png in Resources */,
+				694AA05A215E94E60035475B /* Detergente en PolvoL.png in Resources */,
 				69E63E4B215DD69B00885284 /* Sopa de Pasta.png in Resources */,
 				69F30E37212745D20087BE3F /* rec1.png in Resources */,
 				69B8E95921261BDE007D9554 /* logout.png in Resources */,
 				69E63E31215DD0C100885284 /* Pierna con Muslo.png in Resources */,
 				69E63E48215DD5EE00885284 /* ArrozL.png in Resources */,
+				694AA06A215E97000035475B /* Tomate VerdeL.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
