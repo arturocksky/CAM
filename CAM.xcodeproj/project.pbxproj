@@ -41,6 +41,60 @@
 		69A070C721267E53000A14DA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A070C621267E52000A14DA /* settings.png */; };
 		69B8E95921261BDE007D9554 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95721261BDD007D9554 /* logout.png */; };
 		69B8E95A21261BDE007D9554 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95821261BDD007D9554 /* user.png */; };
+		69E63DED215DB41B00885284 /* Jitomate SaladetteL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE5215DB41700885284 /* Jitomate SaladetteL.png */; };
+		69E63DEE215DB41B00885284 /* Lechuga OrejonaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE6215DB41700885284 /* Lechuga OrejonaL.png */; };
+		69E63DEF215DB41B00885284 /* Lechuga RomanaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE7215DB41800885284 /* Lechuga RomanaL.png */; };
+		69E63DF0215DB41B00885284 /* Cebolla BlancaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE8215DB41900885284 /* Cebolla BlancaL.png */; };
+		69E63DF1215DB41B00885284 /* Chile SerranoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE9215DB41900885284 /* Chile SerranoL.png */; };
+		69E63DF2215DB41B00885284 /* ManzanaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DEA215DB41A00885284 /* ManzanaL.png */; };
+		69E63DF3215DB41B00885284 /* Papa BlancaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DEB215DB41A00885284 /* Papa BlancaL.png */; };
+		69E63DF9215DBBBE00885284 /* Limon sin SemillaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DF7215DBBBD00885284 /* Limon sin SemillaL.png */; };
+		69E63DFA215DBBBE00885284 /* Limon sin Semilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DF8215DBBBD00885284 /* Limon sin Semilla.png */; };
+		69E63DFD215DBC8600885284 /* Chicharo.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DFB215DBC8500885284 /* Chicharo.png */; };
+		69E63DFE215DBC8600885284 /* ChicharoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DFC215DBC8500885284 /* ChicharoL.png */; };
+		69E63E00215DBD2300885284 /* Aguacate HassL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DFF215DBD2300885284 /* Aguacate HassL.png */; };
+		69E63E03215DBF5900885284 /* Ejote.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E01215DBF5800885284 /* Ejote.png */; };
+		69E63E04215DBF5900885284 /* EjoteL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E02215DBF5900885284 /* EjoteL.png */; };
+		69E63E07215DC03E00885284 /* PepinoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E05215DC03D00885284 /* PepinoL.png */; };
+		69E63E08215DC03E00885284 /* Pepino.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E06215DC03D00885284 /* Pepino.png */; };
+		69E63E0B215DC17A00885284 /* Chile Poblano.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E09215DC17900885284 /* Chile Poblano.png */; };
+		69E63E0C215DC17A00885284 /* Chile PoblanoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E0A215DC17A00885284 /* Chile PoblanoL.png */; };
+		69E63E0F215DC2E800885284 /* Naranja.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E0D215DC2E700885284 /* Naranja.png */; };
+		69E63E10215DC2E800885284 /* NaranjaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E0E215DC2E700885284 /* NaranjaL.png */; };
+		69E63E13215DC3DE00885284 /* Piña.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E11215DC3DC00885284 /* Piña.png */; };
+		69E63E14215DC3DE00885284 /* PiñaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E12215DC3DC00885284 /* PiñaL.png */; };
+		69E63E17215DC45000885284 /* Papaya.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E15215DC44F00885284 /* Papaya.png */; };
+		69E63E18215DC45000885284 /* PapayaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E16215DC44F00885284 /* PapayaL.png */; };
+		69E63E1B215DC4C900885284 /* Platano TabascoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E19215DC4C800885284 /* Platano TabascoL.png */; };
+		69E63E1C215DC4C900885284 /* Platano Tabasco.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E1A215DC4C800885284 /* Platano Tabasco.png */; };
+		69E63E1F215DC61500885284 /* Higado de Res.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E1D215DC61400885284 /* Higado de Res.png */; };
+		69E63E20215DC61500885284 /* Higado de ResL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E1E215DC61500885284 /* Higado de ResL.png */; };
+		69E63E23215DC6D100885284 /* Bistec de ResL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E21215DC6D000885284 /* Bistec de ResL.png */; };
+		69E63E24215DC6D100885284 /* Bistec de Res.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E22215DC6D000885284 /* Bistec de Res.png */; };
+		69E63E27215DC7A900885284 /* Retazo de ResL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E25215DC7A800885284 /* Retazo de ResL.png */; };
+		69E63E28215DC7A900885284 /* Retazo de Res.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E26215DC7A900885284 /* Retazo de Res.png */; };
+		69E63E2B215DC88400885284 /* Pollo Entero.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E29215DC88300885284 /* Pollo Entero.png */; };
+		69E63E2C215DC88400885284 /* Pollo EnteroL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E2A215DC88400885284 /* Pollo EnteroL.png */; };
+		69E63E31215DD0C100885284 /* Pierna con Muslo.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E2D215DD0BE00885284 /* Pierna con Muslo.png */; };
+		69E63E32215DD0C100885284 /* Retazo de Pollo Maciza-Pierna.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E2E215DD0BF00885284 /* Retazo de Pollo Maciza-Pierna.png */; };
+		69E63E33215DD0C100885284 /* Retazo de Pollo Maciza-PiernaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E2F215DD0C000885284 /* Retazo de Pollo Maciza-PiernaL.png */; };
+		69E63E34215DD0C100885284 /* Pierna con MusloL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E30215DD0C000885284 /* Pierna con MusloL.png */; };
+		69E63E39215DD1C500885284 /* Pechuga de Pollo.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E35215DD1C300885284 /* Pechuga de Pollo.png */; };
+		69E63E3A215DD1C500885284 /* Lentejas.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E36215DD1C400885284 /* Lentejas.png */; };
+		69E63E3B215DD1C500885284 /* LentejasL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E37215DD1C400885284 /* LentejasL.png */; };
+		69E63E3C215DD1C500885284 /* Pechuga de PolloL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E38215DD1C500885284 /* Pechuga de PolloL.png */; };
+		69E63E3F215DD26F00885284 /* Frijol BayoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E3D215DD26E00885284 /* Frijol BayoL.png */; };
+		69E63E40215DD26F00885284 /* Frijol Bayo.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E3E215DD26F00885284 /* Frijol Bayo.png */; };
+		69E63E43215DD4DA00885284 /* Pescado Sierra.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E41215DD4D900885284 /* Pescado Sierra.png */; };
+		69E63E44215DD4DA00885284 /* Pescado SierraL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E42215DD4DA00885284 /* Pescado SierraL.png */; };
+		69E63E47215DD5EE00885284 /* Arroz.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E45215DD5ED00885284 /* Arroz.png */; };
+		69E63E48215DD5EE00885284 /* ArrozL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E46215DD5EE00885284 /* ArrozL.png */; };
+		69E63E4B215DD69B00885284 /* Sopa de Pasta.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E49215DD69A00885284 /* Sopa de Pasta.png */; };
+		69E63E4C215DD69B00885284 /* Sopa de PastaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E4A215DD69A00885284 /* Sopa de PastaL.png */; };
+		69E63E4F215DD7C200885284 /* Aceite.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E4D215DD7C100885284 /* Aceite.png */; };
+		69E63E50215DD7C200885284 /* AceiteL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E4E215DD7C200885284 /* AceiteL.png */; };
+		69E63E53215DDBDE00885284 /* Sardina.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E51215DDBDB00885284 /* Sardina.png */; };
+		69E63E54215DDBDE00885284 /* SardinaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E52215DDBDC00885284 /* SardinaL.png */; };
 		69F30E36212745D20087BE3F /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E34212745CE0087BE3F /* rec.png */; };
 		69F30E37212745D20087BE3F /* rec1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E35212745D10087BE3F /* rec1.png */; };
 		79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ABCE1D212F6FA300AD190C /* UNAM_logo.png */; };
@@ -86,6 +140,60 @@
 		69A070C621267E52000A14DA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		69B8E95721261BDD007D9554 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
 		69B8E95821261BDD007D9554 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		69E63DE5215DB41700885284 /* Jitomate SaladetteL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jitomate SaladetteL.png"; sourceTree = "<group>"; };
+		69E63DE6215DB41700885284 /* Lechuga OrejonaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lechuga OrejonaL.png"; sourceTree = "<group>"; };
+		69E63DE7215DB41800885284 /* Lechuga RomanaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lechuga RomanaL.png"; sourceTree = "<group>"; };
+		69E63DE8215DB41900885284 /* Cebolla BlancaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cebolla BlancaL.png"; sourceTree = "<group>"; };
+		69E63DE9215DB41900885284 /* Chile SerranoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chile SerranoL.png"; sourceTree = "<group>"; };
+		69E63DEA215DB41A00885284 /* ManzanaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManzanaL.png; sourceTree = "<group>"; };
+		69E63DEB215DB41A00885284 /* Papa BlancaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Papa BlancaL.png"; sourceTree = "<group>"; };
+		69E63DF7215DBBBD00885284 /* Limon sin SemillaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Limon sin SemillaL.png"; sourceTree = "<group>"; };
+		69E63DF8215DBBBD00885284 /* Limon sin Semilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Limon sin Semilla.png"; sourceTree = "<group>"; };
+		69E63DFB215DBC8500885284 /* Chicharo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chicharo.png; sourceTree = "<group>"; };
+		69E63DFC215DBC8500885284 /* ChicharoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChicharoL.png; sourceTree = "<group>"; };
+		69E63DFF215DBD2300885284 /* Aguacate HassL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aguacate HassL.png"; sourceTree = "<group>"; };
+		69E63E01215DBF5800885284 /* Ejote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ejote.png; sourceTree = "<group>"; };
+		69E63E02215DBF5900885284 /* EjoteL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EjoteL.png; sourceTree = "<group>"; };
+		69E63E05215DC03D00885284 /* PepinoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PepinoL.png; sourceTree = "<group>"; };
+		69E63E06215DC03D00885284 /* Pepino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pepino.png; sourceTree = "<group>"; };
+		69E63E09215DC17900885284 /* Chile Poblano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chile Poblano.png"; sourceTree = "<group>"; };
+		69E63E0A215DC17A00885284 /* Chile PoblanoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chile PoblanoL.png"; sourceTree = "<group>"; };
+		69E63E0D215DC2E700885284 /* Naranja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Naranja.png; sourceTree = "<group>"; };
+		69E63E0E215DC2E700885284 /* NaranjaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NaranjaL.png; sourceTree = "<group>"; };
+		69E63E11215DC3DC00885284 /* Piña.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Piña.png"; sourceTree = "<group>"; };
+		69E63E12215DC3DC00885284 /* PiñaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PiñaL.png"; sourceTree = "<group>"; };
+		69E63E15215DC44F00885284 /* Papaya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Papaya.png; sourceTree = "<group>"; };
+		69E63E16215DC44F00885284 /* PapayaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PapayaL.png; sourceTree = "<group>"; };
+		69E63E19215DC4C800885284 /* Platano TabascoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Platano TabascoL.png"; sourceTree = "<group>"; };
+		69E63E1A215DC4C800885284 /* Platano Tabasco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Platano Tabasco.png"; sourceTree = "<group>"; };
+		69E63E1D215DC61400885284 /* Higado de Res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Higado de Res.png"; sourceTree = "<group>"; };
+		69E63E1E215DC61500885284 /* Higado de ResL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Higado de ResL.png"; sourceTree = "<group>"; };
+		69E63E21215DC6D000885284 /* Bistec de ResL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bistec de ResL.png"; sourceTree = "<group>"; };
+		69E63E22215DC6D000885284 /* Bistec de Res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bistec de Res.png"; sourceTree = "<group>"; };
+		69E63E25215DC7A800885284 /* Retazo de ResL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Retazo de ResL.png"; sourceTree = "<group>"; };
+		69E63E26215DC7A900885284 /* Retazo de Res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Retazo de Res.png"; sourceTree = "<group>"; };
+		69E63E29215DC88300885284 /* Pollo Entero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pollo Entero.png"; sourceTree = "<group>"; };
+		69E63E2A215DC88400885284 /* Pollo EnteroL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pollo EnteroL.png"; sourceTree = "<group>"; };
+		69E63E2D215DD0BE00885284 /* Pierna con Muslo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pierna con Muslo.png"; sourceTree = "<group>"; };
+		69E63E2E215DD0BF00885284 /* Retazo de Pollo Maciza-Pierna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Retazo de Pollo Maciza-Pierna.png"; sourceTree = "<group>"; };
+		69E63E2F215DD0C000885284 /* Retazo de Pollo Maciza-PiernaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Retazo de Pollo Maciza-PiernaL.png"; sourceTree = "<group>"; };
+		69E63E30215DD0C000885284 /* Pierna con MusloL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pierna con MusloL.png"; sourceTree = "<group>"; };
+		69E63E35215DD1C300885284 /* Pechuga de Pollo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pechuga de Pollo.png"; sourceTree = "<group>"; };
+		69E63E36215DD1C400885284 /* Lentejas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lentejas.png; sourceTree = "<group>"; };
+		69E63E37215DD1C400885284 /* LentejasL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LentejasL.png; sourceTree = "<group>"; };
+		69E63E38215DD1C500885284 /* Pechuga de PolloL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pechuga de PolloL.png"; sourceTree = "<group>"; };
+		69E63E3D215DD26E00885284 /* Frijol BayoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frijol BayoL.png"; sourceTree = "<group>"; };
+		69E63E3E215DD26F00885284 /* Frijol Bayo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frijol Bayo.png"; sourceTree = "<group>"; };
+		69E63E41215DD4D900885284 /* Pescado Sierra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pescado Sierra.png"; sourceTree = "<group>"; };
+		69E63E42215DD4DA00885284 /* Pescado SierraL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pescado SierraL.png"; sourceTree = "<group>"; };
+		69E63E45215DD5ED00885284 /* Arroz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arroz.png; sourceTree = "<group>"; };
+		69E63E46215DD5EE00885284 /* ArrozL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrozL.png; sourceTree = "<group>"; };
+		69E63E49215DD69A00885284 /* Sopa de Pasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sopa de Pasta.png"; sourceTree = "<group>"; };
+		69E63E4A215DD69A00885284 /* Sopa de PastaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sopa de PastaL.png"; sourceTree = "<group>"; };
+		69E63E4D215DD7C100885284 /* Aceite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aceite.png; sourceTree = "<group>"; };
+		69E63E4E215DD7C200885284 /* AceiteL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceiteL.png; sourceTree = "<group>"; };
+		69E63E51215DDBDB00885284 /* Sardina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sardina.png; sourceTree = "<group>"; };
+		69E63E52215DDBDC00885284 /* SardinaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SardinaL.png; sourceTree = "<group>"; };
 		69F30E34212745CE0087BE3F /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
 		69F30E35212745D10087BE3F /* rec1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec1.png; sourceTree = "<group>"; };
 		78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,16 +223,70 @@
 		690F2D82213B502600290D41 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				69E63E51215DDBDB00885284 /* Sardina.png */,
+				69E63E52215DDBDC00885284 /* SardinaL.png */,
+				69E63E4D215DD7C100885284 /* Aceite.png */,
+				69E63E4E215DD7C200885284 /* AceiteL.png */,
+				69E63E49215DD69A00885284 /* Sopa de Pasta.png */,
+				69E63E4A215DD69A00885284 /* Sopa de PastaL.png */,
+				69E63E45215DD5ED00885284 /* Arroz.png */,
+				69E63E46215DD5EE00885284 /* ArrozL.png */,
+				69E63E41215DD4D900885284 /* Pescado Sierra.png */,
+				69E63E42215DD4DA00885284 /* Pescado SierraL.png */,
+				69E63E3E215DD26F00885284 /* Frijol Bayo.png */,
+				69E63E3D215DD26E00885284 /* Frijol BayoL.png */,
+				69E63E36215DD1C400885284 /* Lentejas.png */,
+				69E63E37215DD1C400885284 /* LentejasL.png */,
+				69E63E35215DD1C300885284 /* Pechuga de Pollo.png */,
+				69E63E38215DD1C500885284 /* Pechuga de PolloL.png */,
+				69E63E2D215DD0BE00885284 /* Pierna con Muslo.png */,
+				69E63E30215DD0C000885284 /* Pierna con MusloL.png */,
+				69E63E2E215DD0BF00885284 /* Retazo de Pollo Maciza-Pierna.png */,
+				69E63E2F215DD0C000885284 /* Retazo de Pollo Maciza-PiernaL.png */,
+				69E63E29215DC88300885284 /* Pollo Entero.png */,
+				69E63E2A215DC88400885284 /* Pollo EnteroL.png */,
+				69E63E26215DC7A900885284 /* Retazo de Res.png */,
+				69E63E25215DC7A800885284 /* Retazo de ResL.png */,
+				69E63E22215DC6D000885284 /* Bistec de Res.png */,
+				69E63E21215DC6D000885284 /* Bistec de ResL.png */,
+				69E63E1D215DC61400885284 /* Higado de Res.png */,
+				69E63E1E215DC61500885284 /* Higado de ResL.png */,
+				69E63E1A215DC4C800885284 /* Platano Tabasco.png */,
+				69E63E19215DC4C800885284 /* Platano TabascoL.png */,
+				69E63E15215DC44F00885284 /* Papaya.png */,
+				69E63E16215DC44F00885284 /* PapayaL.png */,
+				69E63E11215DC3DC00885284 /* Piña.png */,
+				69E63E12215DC3DC00885284 /* PiñaL.png */,
+				69E63E0D215DC2E700885284 /* Naranja.png */,
+				69E63E0E215DC2E700885284 /* NaranjaL.png */,
+				69E63E09215DC17900885284 /* Chile Poblano.png */,
+				69E63E0A215DC17A00885284 /* Chile PoblanoL.png */,
+				69E63E01215DBF5800885284 /* Ejote.png */,
+				69E63E02215DBF5900885284 /* EjoteL.png */,
+				69E63E06215DC03D00885284 /* Pepino.png */,
+				69E63E05215DC03D00885284 /* PepinoL.png */,
 				6907547E2139036000953A8D /* Manzana.png */,
 				690F2D83213B5D2900290D41 /* Jitomate Saladette.png */,
 				690F2D85213B5F7800290D41 /* Lechuga Orejona.png */,
 				690F2D87213B60C800290D41 /* Cebolla Blanca.png */,
+				69E63DF8215DBBBD00885284 /* Limon sin Semilla.png */,
+				69E63DF7215DBBBD00885284 /* Limon sin SemillaL.png */,
 				690F2D89213B618400290D41 /* Zanahoria.png */,
 				690F2D8A213B618500290D41 /* Lechuga Romana.png */,
 				690F2D8D213B68AC00290D41 /* Papa Blanca.png */,
 				690F2D8F213B69EA00290D41 /* Aguacate Hass.png */,
 				690F2D91213B6AC600290D41 /* Chile Serrano.png */,
 				69400A50214F6D940084A313 /* ZanahoriaL.png */,
+				69E63DFB215DBC8500885284 /* Chicharo.png */,
+				69E63DFC215DBC8500885284 /* ChicharoL.png */,
+				69E63DE8215DB41900885284 /* Cebolla BlancaL.png */,
+				69E63DFF215DBD2300885284 /* Aguacate HassL.png */,
+				69E63DE9215DB41900885284 /* Chile SerranoL.png */,
+				69E63DE5215DB41700885284 /* Jitomate SaladetteL.png */,
+				69E63DE6215DB41700885284 /* Lechuga OrejonaL.png */,
+				69E63DE7215DB41800885284 /* Lechuga RomanaL.png */,
+				69E63DEA215DB41A00885284 /* ManzanaL.png */,
+				69E63DEB215DB41A00885284 /* Papa BlancaL.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -252,30 +414,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E63E0F215DC2E800885284 /* Naranja.png in Resources */,
+				69E63E44215DD4DA00885284 /* Pescado SierraL.png in Resources */,
+				69E63E07215DC03E00885284 /* PepinoL.png in Resources */,
+				69E63E39215DD1C500885284 /* Pechuga de Pollo.png in Resources */,
+				69E63E23215DC6D100885284 /* Bistec de ResL.png in Resources */,
+				69E63E50215DD7C200885284 /* AceiteL.png in Resources */,
+				69E63E27215DC7A900885284 /* Retazo de ResL.png in Resources */,
+				69E63E3B215DD1C500885284 /* LentejasL.png in Resources */,
+				69E63E28215DC7A900885284 /* Retazo de Res.png in Resources */,
 				690F2D84213B5D2900290D41 /* Jitomate Saladette.png in Resources */,
+				69E63DF0215DB41B00885284 /* Cebolla BlancaL.png in Resources */,
+				69E63DEF215DB41B00885284 /* Lechuga RomanaL.png in Resources */,
 				69F30E36212745D20087BE3F /* rec.png in Resources */,
+				69E63E54215DDBDE00885284 /* SardinaL.png in Resources */,
 				69400A51214F6D940084A313 /* ZanahoriaL.png in Resources */,
 				698C4EDE21236AF0003E4CDD /* menu.png in Resources */,
+				69E63E1C215DC4C900885284 /* Platano Tabasco.png in Resources */,
+				69E63E04215DBF5900885284 /* EjoteL.png in Resources */,
+				69E63E47215DD5EE00885284 /* Arroz.png in Resources */,
+				69E63E08215DC03E00885284 /* Pepino.png in Resources */,
 				6915F7F1212522670084BB18 /* number2.png in Resources */,
+				69E63E32215DD0C100885284 /* Retazo de Pollo Maciza-Pierna.png in Resources */,
+				69E63E3C215DD1C500885284 /* Pechuga de PolloL.png in Resources */,
+				69E63E2B215DC88400885284 /* Pollo Entero.png in Resources */,
+				69E63E34215DD0C100885284 /* Pierna con MusloL.png in Resources */,
 				698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */,
+				69E63E13215DC3DE00885284 /* Piña.png in Resources */,
+				69E63E4F215DD7C200885284 /* Aceite.png in Resources */,
+				69E63E03215DBF5900885284 /* Ejote.png in Resources */,
+				69E63E53215DDBDE00885284 /* Sardina.png in Resources */,
+				69E63E0B215DC17A00885284 /* Chile Poblano.png in Resources */,
+				69E63E24215DC6D100885284 /* Bistec de Res.png in Resources */,
+				69E63DEE215DB41B00885284 /* Lechuga OrejonaL.png in Resources */,
 				690F2D8E213B68AC00290D41 /* Papa Blanca.png in Resources */,
+				69E63DF1215DB41B00885284 /* Chile SerranoL.png in Resources */,
 				6907547F2139036300953A8D /* Manzana.png in Resources */,
+				69E63E4C215DD69B00885284 /* Sopa de PastaL.png in Resources */,
+				69E63E10215DC2E800885284 /* NaranjaL.png in Resources */,
+				69E63DF3215DB41B00885284 /* Papa BlancaL.png in Resources */,
 				69A070C721267E53000A14DA /* settings.png in Resources */,
+				69E63E17215DC45000885284 /* Papaya.png in Resources */,
+				69E63E1F215DC61500885284 /* Higado de Res.png in Resources */,
 				690F2D88213B60C900290D41 /* Cebolla Blanca.png in Resources */,
 				690F2D8B213B618500290D41 /* Zanahoria.png in Resources */,
+				69E63E3F215DD26F00885284 /* Frijol BayoL.png in Resources */,
+				69E63E0C215DC17A00885284 /* Chile PoblanoL.png in Resources */,
+				69E63DED215DB41B00885284 /* Jitomate SaladetteL.png in Resources */,
+				69E63E43215DD4DA00885284 /* Pescado Sierra.png in Resources */,
+				69E63DFA215DBBBE00885284 /* Limon sin Semilla.png in Resources */,
 				6915F7F0212522670084BB18 /* number1.png in Resources */,
+				69E63DFD215DBC8600885284 /* Chicharo.png in Resources */,
+				69E63DFE215DBC8600885284 /* ChicharoL.png in Resources */,
+				69E63E14215DC3DE00885284 /* PiñaL.png in Resources */,
+				69E63E2C215DC88400885284 /* Pollo EnteroL.png in Resources */,
 				6915F7EF212522670084BB18 /* number3.png in Resources */,
 				690F2D92213B6AC700290D41 /* Chile Serrano.png in Resources */,
 				6953CFC121224ADD0061B7EE /* LaunchScreen.storyboard in Resources */,
 				69B8E95A21261BDE007D9554 /* user.png in Resources */,
 				6953CFBE21224ADD0061B7EE /* Assets.xcassets in Resources */,
 				6953CFBC21224ADA0061B7EE /* Main.storyboard in Resources */,
+				69E63E20215DC61500885284 /* Higado de ResL.png in Resources */,
+				69E63E18215DC45000885284 /* PapayaL.png in Resources */,
+				69E63E00215DBD2300885284 /* Aguacate HassL.png in Resources */,
 				690F2D86213B5F7800290D41 /* Lechuga Orejona.png in Resources */,
+				69E63E3A215DD1C500885284 /* Lentejas.png in Resources */,
+				69E63DF9215DBBBE00885284 /* Limon sin SemillaL.png in Resources */,
 				690F2D8C213B618500290D41 /* Lechuga Romana.png in Resources */,
+				69E63E40215DD26F00885284 /* Frijol Bayo.png in Resources */,
+				69E63E1B215DC4C900885284 /* Platano TabascoL.png in Resources */,
+				69E63E33215DD0C100885284 /* Retazo de Pollo Maciza-PiernaL.png in Resources */,
+				69E63DF2215DB41B00885284 /* ManzanaL.png in Resources */,
 				79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */,
 				690F2D90213B69EA00290D41 /* Aguacate Hass.png in Resources */,
+				69E63E4B215DD69B00885284 /* Sopa de Pasta.png in Resources */,
 				69F30E37212745D20087BE3F /* rec1.png in Resources */,
 				69B8E95921261BDE007D9554 /* logout.png in Resources */,
+				69E63E31215DD0C100885284 /* Pierna con Muslo.png in Resources */,
+				69E63E48215DD5EE00885284 /* ArrozL.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -79,13 +79,13 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         
         // add a border
         cell.layer.borderColor = UIColor.gray.cgColor
-        cell.layer.borderWidth = 1
-        cell.layer.cornerRadius = 8 // optional
+        cell.layer.borderWidth = 0.0
+        cell.layer.cornerRadius = 4 // optional
         cell.contentView.layer.masksToBounds = true;
         
         cell.layer.shadowColor = UIColor.darkGray.cgColor
-        cell.layer.shadowOffset = CGSize(width:0,height: 2.0)
-        cell.layer.shadowRadius = 2.0
+        cell.layer.shadowOffset = CGSize(width:0.0,height: 1.0)
+        cell.layer.shadowRadius = 1.0
         cell.layer.shadowOpacity = 1.0
         cell.layer.masksToBounds = false;
         cell.layer.shadowPath = UIBezierPath(roundedRect:cell.bounds, cornerRadius:cell.contentView.layer.cornerRadius).cgPath
@@ -128,9 +128,11 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil)
         
         alertView.addAction(action)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
+        alertView.addAction(cancelAction)
        // present(alertView, animated: true, completion: { _ in pickerView.frame.size.width = alertView.view.frame.size.width
         self.parent!.present(alertView, animated: true)
-        
         
         /*
         let alert = UIAlertController(title: "Picker View", message: "Hi", preferredStyle: .actionSheet)
