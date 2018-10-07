@@ -134,6 +134,7 @@
 		69F30E36212745D20087BE3F /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E34212745CE0087BE3F /* rec.png */; };
 		69F30E37212745D20087BE3F /* rec1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E35212745D10087BE3F /* rec1.png */; };
 		79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ABCE1D212F6FA300AD190C /* UNAM_logo.png */; };
+		79F18F3F216AB24000E62B4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79F18F3E216AB24000E62B4C /* GoogleService-Info.plist */; };
 		8972AFCE79F083147C2BE2CD /* Pods_CAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */; };
 /* End PBXBuildFile section */
 
@@ -270,6 +271,7 @@
 		69F30E35212745D10087BE3F /* rec1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec1.png; sourceTree = "<group>"; };
 		78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79ABCE1D212F6FA300AD190C /* UNAM_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNAM_logo.png; sourceTree = "<group>"; };
+		79F18F3E216AB24000E62B4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -439,6 +441,7 @@
 				6953CFBD21224ADD0061B7EE /* Assets.xcassets */,
 				6953CFBF21224ADD0061B7EE /* LaunchScreen.storyboard */,
 				6953CFC221224ADD0061B7EE /* Info.plist */,
+				79F18F3E216AB24000E62B4C /* GoogleService-Info.plist */,
 				699711692123588D0018FC19 /* ViewControllerInicio.swift */,
 				6997116B212361BE0018FC19 /* MenuTableViewController.swift */,
 				69A070BA21267707000A14DA /* ViewControllerRegistro.swift */,
@@ -564,6 +567,7 @@
 				69E63E53215DDBDE00885284 /* Sardina.png in Resources */,
 				69E63E0B215DC17A00885284 /* Chile Poblano.png in Resources */,
 				694AA03A215E8E280035475B /* Leche Pasteurizada.png in Resources */,
+				79F18F3F216AB24000E62B4C /* GoogleService-Info.plist in Resources */,
 				69E63E24215DC6D100885284 /* Bistec de Res.png in Resources */,
 				690FE1E1215E8BCA003DCB66 /* CafeL.png in Resources */,
 				69E63DEE215DB41B00885284 /* Lechuga OrejonaL.png in Resources */,
@@ -668,12 +672,20 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CAM/Pods-CAM-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SidebarOverlay/SidebarOverlay.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SidebarOverlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

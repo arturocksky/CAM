@@ -12,5 +12,9 @@ target 'CAM' do
   # Pods for CAM
   pod 'SidebarOverlay'
   pod 'Alamofire'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
 
 end
