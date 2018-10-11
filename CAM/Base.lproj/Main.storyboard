@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZcM-AS-gzG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZcM-AS-gzG">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -596,7 +596,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eUO-8L-86K" userLabel="Top">
-                                    <rect key="frame" x="10" y="10" width="300" height="90"/>
+                                    <rect key="frame" x="0.0" y="10" width="300" height="90"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nCo-H1-4ZV">
                                             <rect key="frame" x="0.0" y="0.0" width="60" height="90"/>
@@ -614,7 +614,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="viS-ft-jEy">
-                                            <rect key="frame" x="60" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="70" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alimentos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrZ-oe-FcN">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -629,7 +629,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Wso-yV-cw0">
-                                            <rect key="frame" x="120" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="130" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aseo Personal y del Hogar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJd-Zq-hBY">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -644,7 +644,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IM5-Pe-VWS">
-                                            <rect key="frame" x="180" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="190" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transporte y Vivienda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29d-Oq-SEu">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -659,7 +659,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WDN-R0-IqN">
-                                            <rect key="frame" x="240" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="250" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enviar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cT-iQ-yP6">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -749,7 +749,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="XVj-1p-f7v" userLabel="Top">
-                                    <rect key="frame" x="10" y="10" width="300" height="90"/>
+                                    <rect key="frame" x="0.0" y="10" width="300" height="90"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WfJ-7g-PWt">
                                             <rect key="frame" x="0.0" y="0.0" width="60" height="90"/>
@@ -767,7 +767,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="d20-cK-aYv">
-                                            <rect key="frame" x="60" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="70" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alimentos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bff-AU-Qjl">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -782,7 +782,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0QI-Az-fx5">
-                                            <rect key="frame" x="120" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="130" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aseo Personal y del Hogar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHE-XD-4Ch">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -797,7 +797,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QrC-TN-aV4">
-                                            <rect key="frame" x="180" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="190" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transporte y Vivienda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEg-si-cYy">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -812,7 +812,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="d3h-Gi-010">
-                                            <rect key="frame" x="240" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="250" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enviar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cs8-Yc-zNz">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -902,7 +902,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lKV-oI-Vyk" userLabel="Top">
-                                    <rect key="frame" x="10" y="10" width="300" height="90"/>
+                                    <rect key="frame" x="0.0" y="10" width="300" height="90"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="w3Q-2C-fz9">
                                             <rect key="frame" x="0.0" y="0.0" width="60" height="90"/>
@@ -920,7 +920,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LBT-xV-7Qh">
-                                            <rect key="frame" x="60" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="70" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alimentos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1V-Uy-hx9">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -935,7 +935,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="feG-57-Psz">
-                                            <rect key="frame" x="120" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="130" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aseo Personal y del Hogar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wY7-mz-BsC">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -950,7 +950,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mpO-Hz-XKN">
-                                            <rect key="frame" x="180" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="190" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transporte y Vivienda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Len-Nb-YDv">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -965,7 +965,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xmu-gQ-Gea">
-                                            <rect key="frame" x="240" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="250" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enviar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kh-Kg-DyQ">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -1055,7 +1055,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bPk-sW-GEz" userLabel="Top">
-                                    <rect key="frame" x="10" y="10" width="300" height="90"/>
+                                    <rect key="frame" x="0.0" y="10" width="300" height="90"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="L83-mU-MSs">
                                             <rect key="frame" x="0.0" y="0.0" width="60" height="90"/>
@@ -1073,7 +1073,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ubD-2Q-tOQ">
-                                            <rect key="frame" x="60" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="70" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alimentos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXy-IL-rcr">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -1088,7 +1088,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="z0d-Yq-qQv">
-                                            <rect key="frame" x="120" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="130" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aseo Personal y del Hogar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMn-yF-fCt">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -1103,7 +1103,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vMW-AL-mjd">
-                                            <rect key="frame" x="180" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="190" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transporte y Vivienda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNd-JU-2TT">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -1118,7 +1118,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bhX-e3-PtH">
-                                            <rect key="frame" x="240" y="0.0" width="60" height="90"/>
+                                            <rect key="frame" x="250" y="0.0" width="60" height="90"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enviar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbb-SQ-il5">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
@@ -1254,10 +1254,10 @@
                                 <rect key="frame" x="50" y="405" width="220" height="30"/>
                                 <subviews>
                                     <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5aV-p0-wSg">
-                                        <rect key="frame" x="0.0" y="0.0" width="2" height="31"/>
+                                        <rect key="frame" x="-50" y="-405" width="2" height="31"/>
                                     </switch>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiero recibir notificaciones del CAM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdE-UH-12i">
-                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="31"/>
+                                        <rect key="frame" x="-50" y="-405" width="0.0" height="31"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1271,7 +1271,7 @@
                                 <rect key="frame" x="50" y="440" width="220" height="30"/>
                                 <subviews>
                                     <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sjd-A4-0bv">
-                                        <rect key="frame" x="0.0" y="0.0" width="2" height="30"/>
+                                        <rect key="frame" x="-50" y="0.0" width="2" height="30"/>
                                     </switch>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQb-K2-T0l">
                                         <rect key="frame" x="0.0" y="0.0" width="220" height="30"/>

@@ -7,10 +7,17 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import FirebaseDatabase
 
 private let reuseIdentifier = "reuseIdentifier"
 
+
 class AlimentosCollectionViewController: UICollectionViewController, UIPickerViewDelegate,UIPickerViewDataSource{
+    var ref: DatabaseReference!
+    
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2
     }
@@ -32,6 +39,11 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       ref = Database.database().reference()
+        
+        
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -98,6 +110,7 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let image = UIImage (named: "\(Alimentos[indexPath.row])L.png")
+        let x = Alimentos[indexPath.row]
         
                
         let alertView = UIAlertController(
@@ -124,7 +137,18 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         
         alertView.view.addSubview(pickerView)
         
-        let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil)
+        
+        
+        let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) -> Void in
+            print("ACTION 1 selected!")
+            print("Alimento", self.Alimentos[indexPath.row])
+            print("Seleccion", self.pickerView(pickerView, titleForRow: 1, forComponent: indexPath.row) as Any)
+           // print("Seleccion", self.pickerView(pickerView, titleForRow: NSObject.value(forKey: row) as! Int, forComponent: indexPath.row) as Any)
+            self.ref.child("users").child((Auth.auth().currentUser?.uid)!).setValue(["alimento": x])
+        
+        })
+        
+       // self.ref.child("users").child(user.uid).setValue(["username": username])
         
         alertView.addAction(action)
         
