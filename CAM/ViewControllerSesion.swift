@@ -16,6 +16,11 @@ class ViewControllerSesion: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // para que aparezca el teclado con "@"
+        correo.keyboardType = .emailAddress
+        correo.autocapitalizationType = .none
+        // para que no se vea lo que ha tecleado el usuario
+        password.isSecureTextEntry = true
 
         if control.selectedSegmentIndex == 1 {
             iniciarRegistrar.setTitle("Registrarse", for: UIControlState.normal)
@@ -23,10 +28,39 @@ class ViewControllerSesion: UIViewController {
     }
 
     @IBAction func entrar(_ sender: UIButton) {
-        if control.selectedSegmentIndex == 0 {
-            iniciarSesion(correo: correo.text!, password: password.text!)
-        }else {
-            registrarse(correo: correo.text!, password: password.text!)
+        
+        var mensaje = ""
+        //Validar correo
+        if correo.text == "" {
+            mensaje = "Ingresa un correo"
+        }
+        else {
+            //validar que sea un correo valido
+            let regex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
+            let esValido = NSPredicate(format: "SELF MATCHES %@", regex)
+            if !esValido.evaluate(with: correo.text){
+                mensaje = "Correo no válido"
+            }
+            else if password.text == "" {
+                mensaje = "Es necesario ingresar el password"
+            }
+        }
+        if mensaje != "" {
+            let mensajeError = UIAlertController(title: "Error", message:mensaje, preferredStyle: .alert);
+            let deAcuerdo = UIAlertAction(title: "De acuerdo", style: .default, handler: nil);
+            mensajeError.addAction(deAcuerdo);
+            self.present(mensajeError, animated: true, completion: nil);
+        }
+        else {
+            /*let ud = UserDefaults.standard
+            ud.set(true, forKey:"SesionIniciada")
+            ud.synchronize()
+            self.performSegue(withIdentifier: "loginOK", sender: nil)*/
+            if control.selectedSegmentIndex == 0 {
+                iniciarSesion(correo: correo.text!, password: password.text!)
+            }else {
+                registrarse(correo: correo.text!, password: password.text!)
+            }
         }
         
     }
