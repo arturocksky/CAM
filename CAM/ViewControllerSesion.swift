@@ -7,29 +7,56 @@
 //
 
 import UIKit
-
+import FirebaseAuth
 class ViewControllerSesion: UIViewController {
-
+    @IBOutlet weak var control: UISegmentedControl!
+    @IBOutlet weak var correo: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var iniciarRegistrar: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if control.selectedSegmentIndex == 1 {
+            iniciarRegistrar.setTitle("Registrarse", for: UIControlState.normal)
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func entrar(_ sender: UIButton) {
+        if control.selectedSegmentIndex == 0 {
+            iniciarSesion(correo: correo.text!, password: password.text!)
+        }else {
+            registrarse(correo: correo.text!, password: password.text!)
+        }
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func iniciarSesion(correo: String, password: String){
+        Auth.auth().signIn(withEmail: correo, password: password) { (user, error) in
+            if user != nil {
+                self.performSegue(withIdentifier: "sesionIniciada", sender: self)
+            }else {
+                if let error = error?.localizedDescription {
+                    print("error firebase de inicio de sesión", error)
+                }else {
+                    print("error de código")
+                }
+            }
+        }
     }
-    */
-
+    
+    func registrarse(correo: String, password: String){
+        Auth.auth().createUser(withEmail: correo, password: password) { (user, error) in
+            if user != nil {
+                self.performSegue(withIdentifier: "sesionIniciada", sender: self)
+            }else {
+                if let error = error?.localizedDescription {
+                    print("error firebase de registro", error)
+                }else {
+                    print("error de código")
+                }
+            }
+        }
+    }
+    
 }

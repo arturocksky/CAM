@@ -7,29 +7,27 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ViewControllerPerfil: UIViewController {
-
+    @IBOutlet weak var correo: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if let email = Auth.auth().currentUser?.email {
+            correo.text = String(email)
+        }
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func salir(_ sender: UIButton) {
+        try! Auth.auth().signOut()
+        performSegue(withIdentifier: "login", sender: self)
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
