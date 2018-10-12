@@ -12,6 +12,9 @@ import FirebaseAuth
 import FirebaseDatabase
 
 private let reuseIdentifier = "reuseIdentifier"
+private var x = 0
+private var y = 0
+//private let user = Auth.auth().currentUser?.uid
 
 
 class AlimentosCollectionViewController: UICollectionViewController, UIPickerViewDelegate,UIPickerViewDataSource{
@@ -29,9 +32,21 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if component == 0 {
             return "$ \(row)"
-        } else {
+        } else  {
             return ". \(row)"
         }
+    }
+   
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        if component == 0 {
+            
+            x = row
+          //  return "$ \(row)"
+        } else  {
+            y = row
+           // return ". \(row)"
+        }
+        
     }
     
     
@@ -110,7 +125,7 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let image = UIImage (named: "\(Alimentos[indexPath.row])L.png")
-        let x = Alimentos[indexPath.row]
+        let w = Alimentos[indexPath.row]
         
                
         let alertView = UIAlertController(
@@ -140,15 +155,16 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         
         
         let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) -> Void in
-            print("ACTION 1 selected!")
+            //print("ACTION 1 selected!")
             print("Alimento", self.Alimentos[indexPath.row])
-            print("Seleccion", self.pickerView(pickerView, titleForRow: 1, forComponent: indexPath.row) as Any)
-           // print("Seleccion", self.pickerView(pickerView, titleForRow: NSObject.value(forKey: row) as! Int, forComponent: indexPath.row) as Any)
-            self.ref.child("users").child((Auth.auth().currentUser?.uid)!).setValue(["alimento": x])
-        
+           // print("Seleccion", self.pickerView(pickerView, titleForRow: x , forComponent: indexPath.row) as Any)
+           // print("Seleccion", x)
+            // print("Seleccion", y)
+            let nuevo = ["alimento": w,"pesos": x, "centavos": y] as [String : Any]
+           self.ref.child("users").child((Auth.auth().currentUser?.uid)!).updateChildValues(nuevo)
         })
         
-       // self.ref.child("users").child(user.uid).setValue(["username": username])
+       
         
         alertView.addAction(action)
         
