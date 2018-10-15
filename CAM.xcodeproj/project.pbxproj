@@ -132,6 +132,8 @@
 		69E63E54215DDBDE00885284 /* SardinaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63E52215DDBDC00885284 /* SardinaL.png */; };
 		69F30E36212745D20087BE3F /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E34212745CE0087BE3F /* rec.png */; };
 		69F30E37212745D20087BE3F /* rec1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E35212745D10087BE3F /* rec1.png */; };
+		79162C4B2174238D00EC714A /* LugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79162C4A2174238D00EC714A /* LugarViewController.swift */; };
+		79162C4D21742CAC00EC714A /* estados.json in Resources */ = {isa = PBXBuildFile; fileRef = 79162C4C21742CAC00EC714A /* estados.json */; };
 		79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ABCE1D212F6FA300AD190C /* UNAM_logo.png */; };
 		79F18F3F216AB24000E62B4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79F18F3E216AB24000E62B4C /* GoogleService-Info.plist */; };
 		8972AFCE79F083147C2BE2CD /* Pods_CAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */; };
@@ -268,6 +270,8 @@
 		69F30E34212745CE0087BE3F /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
 		69F30E35212745D10087BE3F /* rec1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec1.png; sourceTree = "<group>"; };
 		78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79162C4A2174238D00EC714A /* LugarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugarViewController.swift; sourceTree = "<group>"; };
+		79162C4C21742CAC00EC714A /* estados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = estados.json; sourceTree = "<group>"; };
 		79ABCE1D212F6FA300AD190C /* UNAM_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNAM_logo.png; sourceTree = "<group>"; };
 		79F18F3E216AB24000E62B4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -432,6 +436,7 @@
 				69A070C621267E52000A14DA /* settings.png */,
 				69F30E34212745CE0087BE3F /* rec.png */,
 				69F30E35212745D10087BE3F /* rec1.png */,
+				79162C4C21742CAC00EC714A /* estados.json */,
 				699DD837214F5CDA00ADBFDA /* AlertController+image.swift */,
 				6953CFB621224ADA0061B7EE /* AppDelegate.swift */,
 				6953CFB821224ADA0061B7EE /* ViewController.swift */,
@@ -449,6 +454,7 @@
 				69A070C42126787E000A14DA /* TableViewControllerCuestionarios.swift */,
 				6905F94A2135147200CEC69E /* AlimentosCollectionViewController.swift */,
 				6905F94C2135158800CEC69E /* AlimentoCollectionViewCell.swift */,
+				79162C4A2174238D00EC714A /* LugarViewController.swift */,
 			);
 			path = CAM;
 			sourceTree = "<group>";
@@ -625,6 +631,7 @@
 				690F2D8C213B618500290D41 /* Lechuga Romana.png in Resources */,
 				69E63E40215DD26F00885284 /* Frijol Bayo.png in Resources */,
 				69E63E1B215DC4C900885284 /* Platano TabascoL.png in Resources */,
+				79162C4D21742CAC00EC714A /* estados.json in Resources */,
 				69E63E33215DD0C100885284 /* Retazo de Pollo Maciza-PiernaL.png in Resources */,
 				69E63DF2215DB41B00885284 /* ManzanaL.png in Resources */,
 				79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */,
@@ -699,6 +706,7 @@
 				6997116C212361BE0018FC19 /* MenuTableViewController.swift in Sources */,
 				6905F94B2135147200CEC69E /* AlimentosCollectionViewController.swift in Sources */,
 				6953CFB921224ADA0061B7EE /* ViewController.swift in Sources */,
+				79162C4B2174238D00EC714A /* LugarViewController.swift in Sources */,
 				6997116A2123588D0018FC19 /* ViewControllerInicio.swift in Sources */,
 				69A070C52126787E000A14DA /* TableViewControllerCuestionarios.swift in Sources */,
 				6905F94D2135158800CEC69E /* AlimentoCollectionViewCell.swift in Sources */,

@@ -24,6 +24,7 @@ class ViewControllerPerfil: UIViewController {
     
     @IBAction func salir(_ sender: UIButton) {
         try! Auth.auth().signOut()
+        correo.text = "Sin correo"
         performSegue(withIdentifier: "login", sender: self)
         
     }

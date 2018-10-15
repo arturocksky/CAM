@@ -19,7 +19,7 @@ private var y = 0
 
 class AlimentosCollectionViewController: UICollectionViewController, UIPickerViewDelegate,UIPickerViewDataSource{
     var ref: DatabaseReference!
-    
+    var user: String = "anonimo"
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2
@@ -56,6 +56,9 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         super.viewDidLoad()
         
        ref = Database.database().reference()
+        if let currentUser = Auth.auth().currentUser?.uid {
+            user = currentUser
+        }
         
         
         
@@ -161,7 +164,7 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
            // print("Seleccion", x)
             // print("Seleccion", y)
             let nuevo = ["alimento": w,"pesos": x, "centavos": y] as [String : Any]
-           self.ref.child("users").child((Auth.auth().currentUser?.uid)!).updateChildValues(nuevo)
+            self.ref.child("users").child(self.user).updateChildValues(nuevo)
         })
         
        
