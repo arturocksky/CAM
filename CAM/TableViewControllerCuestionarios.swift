@@ -7,14 +7,31 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class TableViewControllerCuestionarios: UITableViewController {
     
-    let options:[String] = ["Cuestionario 1","Cuestionario 2","Cuestionario 3","Cuestionario 4","Cuestionario 5"]
+    var listaCuestionarios = [Cuestionario]()
+    var ref:DatabaseReference!
+    var handle: DatabaseHandle!
+    //let options:[String] = ["Cuestionario 1","Cuestionario 2","Cuestionario 3","Cuestionario 4","Cuestionario 5"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        ref = Database.database().reference()
+        handle = ref.child("Precios").observe(DataEventType.value, with: { (snapshot) in
+            self.listaCuestionarios.removeAll()
+            for item in snapshot.children.allObjects as! [DataSnapshot]{
+                let valores = item.value as? [String:AnyObject]
+                let estado = valores!["Estado"] as? String
+                let municipio = valores!["Municipio"] as? String
+                let lugar = valores!["Lugar"] as? String
+                
+                let cuestionarios = Cuestionario(estado: estado, municipio: municipio, lugar: lugar)
+                self.listaCuestionarios.append(cuestionarios)
+            }
+            self.tableView.reloadData()
+        })
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -22,10 +39,6 @@ class TableViewControllerCuestionarios: UITableViewController {
          self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
     // MARK: - Table view data source
 
@@ -36,15 +49,18 @@ class TableViewControllerCuestionarios: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return options.count
+        return listaCuestionarios.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cuestionario:Cuestionario
+        cuestionario = listaCuestionarios[indexPath.row]
 
         // Configure the cell...
-         cell.textLabel?.text = options[indexPath.row]
+        cell.textLabel?.text = cuestionario.lugar
+        cell.detailTextLabel?.text = cuestionario.municipio
 
         return cell
     }

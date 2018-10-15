@@ -134,6 +134,7 @@
 		69F30E37212745D20087BE3F /* rec1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F30E35212745D10087BE3F /* rec1.png */; };
 		79162C4B2174238D00EC714A /* LugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79162C4A2174238D00EC714A /* LugarViewController.swift */; };
 		79162C4D21742CAC00EC714A /* estados.json in Resources */ = {isa = PBXBuildFile; fileRef = 79162C4C21742CAC00EC714A /* estados.json */; };
+		79162C4F2174B97000EC714A /* Cuestiionario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79162C4E2174B97000EC714A /* Cuestiionario.swift */; };
 		79ABCE1E212F6FA300AD190C /* UNAM_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ABCE1D212F6FA300AD190C /* UNAM_logo.png */; };
 		79F18F3F216AB24000E62B4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79F18F3E216AB24000E62B4C /* GoogleService-Info.plist */; };
 		8972AFCE79F083147C2BE2CD /* Pods_CAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */; };
@@ -272,6 +273,7 @@
 		78A4F55025D2DFC5770FBD43 /* Pods_CAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79162C4A2174238D00EC714A /* LugarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugarViewController.swift; sourceTree = "<group>"; };
 		79162C4C21742CAC00EC714A /* estados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = estados.json; sourceTree = "<group>"; };
+		79162C4E2174B97000EC714A /* Cuestiionario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuestiionario.swift; sourceTree = "<group>"; };
 		79ABCE1D212F6FA300AD190C /* UNAM_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNAM_logo.png; sourceTree = "<group>"; };
 		79F18F3E216AB24000E62B4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -455,6 +457,7 @@
 				6905F94A2135147200CEC69E /* AlimentosCollectionViewController.swift */,
 				6905F94C2135158800CEC69E /* AlimentoCollectionViewCell.swift */,
 				79162C4A2174238D00EC714A /* LugarViewController.swift */,
+				79162C4E2174B97000EC714A /* Cuestiionario.swift */,
 			);
 			path = CAM;
 			sourceTree = "<group>";
@@ -707,6 +710,7 @@
 				6905F94B2135147200CEC69E /* AlimentosCollectionViewController.swift in Sources */,
 				6953CFB921224ADA0061B7EE /* ViewController.swift in Sources */,
 				79162C4B2174238D00EC714A /* LugarViewController.swift in Sources */,
+				79162C4F2174B97000EC714A /* Cuestiionario.swift in Sources */,
 				6997116A2123588D0018FC19 /* ViewControllerInicio.swift in Sources */,
 				69A070C52126787E000A14DA /* TableViewControllerCuestionarios.swift in Sources */,
 				6905F94D2135158800CEC69E /* AlimentoCollectionViewCell.swift in Sources */,
