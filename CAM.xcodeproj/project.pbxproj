@@ -74,6 +74,10 @@
 		69A070C3212677EB000A14DA /* ViewControllerResultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070C2212677EB000A14DA /* ViewControllerResultados.swift */; };
 		69A070C52126787E000A14DA /* TableViewControllerCuestionarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070C42126787E000A14DA /* TableViewControllerCuestionarios.swift */; };
 		69A070C721267E53000A14DA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A070C621267E52000A14DA /* settings.png */; };
+		69B73F3E21EAA3DF00F26CEB /* AseoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B73F3D21EAA3DF00F26CEB /* AseoCollectionViewController.swift */; };
+		69B73F4021EAA40600F26CEB /* AseoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B73F3F21EAA40600F26CEB /* AseoCollectionViewCell.swift */; };
+		69B73F4221EAA49D00F26CEB /* TransporteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B73F4121EAA49D00F26CEB /* TransporteCollectionViewCell.swift */; };
+		69B73F4421EAA4CC00F26CEB /* TransporteCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B73F4321EAA4CC00F26CEB /* TransporteCollectionViewController.swift */; };
 		69B8E95921261BDE007D9554 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95721261BDD007D9554 /* logout.png */; };
 		69B8E95A21261BDE007D9554 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95821261BDD007D9554 /* user.png */; };
 		69E63DED215DB41B00885284 /* Jitomate SaladetteL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE5215DB41700885284 /* Jitomate SaladetteL.png */; };
@@ -212,6 +216,10 @@
 		69A070C2212677EB000A14DA /* ViewControllerResultados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResultados.swift; sourceTree = "<group>"; };
 		69A070C42126787E000A14DA /* TableViewControllerCuestionarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerCuestionarios.swift; sourceTree = "<group>"; };
 		69A070C621267E52000A14DA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		69B73F3D21EAA3DF00F26CEB /* AseoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AseoCollectionViewController.swift; sourceTree = "<group>"; };
+		69B73F3F21EAA40600F26CEB /* AseoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AseoCollectionViewCell.swift; sourceTree = "<group>"; };
+		69B73F4121EAA49D00F26CEB /* TransporteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporteCollectionViewCell.swift; sourceTree = "<group>"; };
+		69B73F4321EAA4CC00F26CEB /* TransporteCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporteCollectionViewController.swift; sourceTree = "<group>"; };
 		69B8E95721261BDD007D9554 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
 		69B8E95821261BDD007D9554 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		69E63DE5215DB41700885284 /* Jitomate SaladetteL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jitomate SaladetteL.png"; sourceTree = "<group>"; };
@@ -458,6 +466,10 @@
 				6905F94C2135158800CEC69E /* AlimentoCollectionViewCell.swift */,
 				79162C4A2174238D00EC714A /* LugarViewController.swift */,
 				79162C4E2174B97000EC714A /* Cuestiionario.swift */,
+				69B73F3D21EAA3DF00F26CEB /* AseoCollectionViewController.swift */,
+				69B73F3F21EAA40600F26CEB /* AseoCollectionViewCell.swift */,
+				69B73F4121EAA49D00F26CEB /* TransporteCollectionViewCell.swift */,
+				69B73F4321EAA4CC00F26CEB /* TransporteCollectionViewController.swift */,
 			);
 			path = CAM;
 			sourceTree = "<group>";
@@ -706,18 +718,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B73F4421EAA4CC00F26CEB /* TransporteCollectionViewController.swift in Sources */,
 				6997116C212361BE0018FC19 /* MenuTableViewController.swift in Sources */,
 				6905F94B2135147200CEC69E /* AlimentosCollectionViewController.swift in Sources */,
 				6953CFB921224ADA0061B7EE /* ViewController.swift in Sources */,
 				79162C4B2174238D00EC714A /* LugarViewController.swift in Sources */,
 				79162C4F2174B97000EC714A /* Cuestiionario.swift in Sources */,
 				6997116A2123588D0018FC19 /* ViewControllerInicio.swift in Sources */,
+				69B73F4021EAA40600F26CEB /* AseoCollectionViewCell.swift in Sources */,
 				69A070C52126787E000A14DA /* TableViewControllerCuestionarios.swift in Sources */,
 				6905F94D2135158800CEC69E /* AlimentoCollectionViewCell.swift in Sources */,
 				6953CFB721224ADA0061B7EE /* AppDelegate.swift in Sources */,
 				69A070BD21267738000A14DA /* ViewControllerSesion.swift in Sources */,
+				69B73F3E21EAA3DF00F26CEB /* AseoCollectionViewController.swift in Sources */,
 				69A070C3212677EB000A14DA /* ViewControllerResultados.swift in Sources */,
 				69A070BF21267755000A14DA /* ViewControllerPerfil.swift in Sources */,
+				69B73F4221EAA49D00F26CEB /* TransporteCollectionViewCell.swift in Sources */,
 				69A070C121267769000A14DA /* ViewControllerPrivacidad.swift in Sources */,
 				699DD838214F5CDA00ADBFDA /* AlertController+image.swift in Sources */,
 			);
