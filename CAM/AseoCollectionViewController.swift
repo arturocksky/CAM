@@ -48,7 +48,7 @@ class AseoCollectionViewController: UICollectionViewController, UIPickerViewDele
         
     }
     
-    let Aseo:[String] = ["Tomate Verde","Zanahoria","Calabacita","Papa Blanca","Aguacate Hass","Lechuga Romana","Lechuga Orejona","Cebolla Blanca","Chile Serrano","Jitomate Saladette","Limon sin Semilla","Chicharo","Ejote","Pepino","Chile Poblano","Naranja","Piña","Papaya","Platano Tabasco","Manzana","Higado de Res","Bistec de Res","Retazo de Res","Pollo Entero","Pechuga de Pollo","Pierna con Muslo","Retazo de Pollo Maciza-Pierna","Pescado Sierra","Lentejas","Frijol Bayo","Arroz","Sopa de Pasta","Aceite","Sardina","Atun en Agua o Aceite","Sal Refinada","Azucar Estandar","Cafe","Leche Pasteurizada","Leche Liconsa","Queso Blanco","Agua","Pan Dulce","Bolillo","Tortilla de Maiz","Jabon de Tocador","Detergente en Polvo","Nopales","Huevo","Papel Higienico"]
+    let Aseo:[String] = ["Jabon de Tocador","Detergente en Polvo","Papel Higienico","Shampoo", "Desinfectante", "Pasta Dental", "Desodorante"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -122,6 +122,8 @@ class AseoCollectionViewController: UICollectionViewController, UIPickerViewDele
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
+         let cell = collectionView.cellForItem (at: indexPath)as! AseoCollectionViewCell
+        
         let image = UIImage (named: "\(Aseo[indexPath.row])L.png")
         let w = Aseo[indexPath.row]
         
@@ -160,6 +162,9 @@ class AseoCollectionViewController: UICollectionViewController, UIPickerViewDele
             // print("Seleccion", y)
             let nuevo = ["producto": w,"pesos": x, "centavos": y] as [String : Any]
             self.ref.child("users").child(self.user).updateChildValues(nuevo)
+            
+            cell.layer.backgroundColor = UIColor.green.cgColor
+            cell.outLabelAseo.text = "$" + String(x) + "." + String(y)
         })
         
         

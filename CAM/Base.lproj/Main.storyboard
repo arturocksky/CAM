@@ -288,17 +288,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aqe-1F-RgU">
-                                <rect key="frame" x="40" y="59" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aqe-1F-RgU">
+                                <rect key="frame" x="30" y="50" width="260" height="340"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">No es necesario estar registrado para contestar el cuestionario, sin embargo, es recomendable en caso de requerir comprobante o si se desea llevar un registro de las encuestras aplicadas.  Los lugares para levantar este cuestionario son : 1) Mercado 2)Tianguis 3)Supermercado  Elija una de las tres categorias y responda la totalidad de las preguntas.  La app le indica los productos que han sido recopilados y envia automaticamente las respuestas cuando se cuente con servicio de internet.  Si quiere asegurarse que las respuestas se enviaron correctamente puede acceder a la sección "Enviar" </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7z-gc-G2N">
-                                <rect key="frame" x="133" y="225" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7z-gc-G2N">
+                                <rect key="frame" x="100" y="420" width="120" height="30"/>
                                 <state key="normal" title="Aceptar"/>
                                 <connections>
                                     <segue destination="1cs-eL-exZ" kind="show" id="NDt-03-XaB"/>
@@ -306,12 +304,21 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UrT-39-VeP" firstAttribute="bottom" secondItem="h7z-gc-G2N" secondAttribute="bottom" constant="30" id="5op-G9-63M"/>
+                            <constraint firstItem="UrT-39-VeP" firstAttribute="trailing" secondItem="h7z-gc-G2N" secondAttribute="trailing" constant="100" id="8hv-zf-jSF"/>
+                            <constraint firstItem="Aqe-1F-RgU" firstAttribute="leading" secondItem="UrT-39-VeP" secondAttribute="leading" constant="30" id="MdI-wO-Q2P"/>
+                            <constraint firstItem="h7z-gc-G2N" firstAttribute="leading" secondItem="UrT-39-VeP" secondAttribute="leading" constant="100" id="Rhf-JD-dTG"/>
+                            <constraint firstItem="UrT-39-VeP" firstAttribute="trailing" secondItem="Aqe-1F-RgU" secondAttribute="trailing" constant="30" id="SKC-EF-B5q"/>
+                            <constraint firstItem="h7z-gc-G2N" firstAttribute="top" secondItem="Aqe-1F-RgU" secondAttribute="bottom" constant="30" id="WMr-8g-pap"/>
+                            <constraint firstItem="Aqe-1F-RgU" firstAttribute="top" secondItem="UrT-39-VeP" secondAttribute="top" constant="30" id="e6h-ha-VdJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UrT-39-VeP"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PhP-hP-Mgd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="786" y="-474"/>
+            <point key="canvasLocation" x="785.625" y="-475"/>
         </scene>
         <!--Lugar View Controller-->
         <scene sceneID="xle-Lf-44B">
@@ -406,7 +413,7 @@
                                                 <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                 <state key="normal" image="rec1.png"/>
                                                 <connections>
-                                                    <segue destination="GOR-H7-sHA" kind="show" id="cNH-db-3Tx"/>
+                                                    <segue destination="P4V-ya-XRg" kind="show" id="Y1h-3z-8eh"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -616,6 +623,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqT-Uc-lrN">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="1cs-eL-exZ" kind="show" id="Cat-vF-FCh"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -664,6 +674,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWU-9U-pPU">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="Lva-Ls-6VO" kind="show" id="rf4-TD-ypL"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -679,6 +692,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVj-tW-W2z">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="P4V-ya-XRg" kind="show" id="h4f-Xu-jpL"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -729,7 +745,7 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSB-Oe-Sgk" userLabel="Out Label Aseo">
                                             <rect key="frame" x="0.0" y="100" width="100" height="40"/>
-                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="17"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="15"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hnk-ab-q4u" userLabel="Out Image Aseo">
@@ -772,6 +788,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33X-o9-zh5">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="1cs-eL-exZ" kind="show" id="c4u-PN-seX"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -788,7 +807,7 @@
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
                                                     <connections>
-                                                        <segue destination="pPg-UQ-7ad" kind="show" id="mhl-Y6-O5W"/>
+                                                        <segue destination="pPg-UQ-7ad" kind="show" id="YYQ-VN-bN1"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -820,6 +839,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUg-Qg-Oi6">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="Lva-Ls-6VO" kind="show" id="vEk-ec-x9s"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -835,6 +857,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Snb-AY-dar">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="P4V-ya-XRg" kind="show" id="dz6-Vs-sCn"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -883,12 +908,12 @@
                                     <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWF-1t-2zd">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWF-1t-2zd" userLabel="Out Label Transporte">
                                             <rect key="frame" x="0.0" y="100" width="100" height="40"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6uQ-YI-jQk">
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6uQ-YI-jQk" userLabel="Out Image Transporte">
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         </imageView>
                                     </subviews>
@@ -904,14 +929,12 @@
                                     <constraint firstItem="6uQ-YI-jQk" firstAttribute="leading" secondItem="tZL-V5-ZMF" secondAttribute="leading" id="hbM-T6-DCh"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="outImageAlimento" destination="6uQ-YI-jQk" id="rma-AZ-6A3"/>
                                     <outlet property="outImageTransporte" destination="6uQ-YI-jQk" id="kYo-ty-I2O"/>
-                                    <outlet property="outLabelAlimento" destination="tWF-1t-2zd" id="3KZ-OA-OGl"/>
                                     <outlet property="outLabelTransporte" destination="tWF-1t-2zd" id="aFf-16-16l"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="BSO-F5-OUl">
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionReusableView" id="BSO-F5-OUl">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
@@ -930,6 +953,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQB-Iw-tQw">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="1cs-eL-exZ" kind="show" id="5mA-tM-J4M"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -945,6 +971,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLP-fD-8VM">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="pPg-UQ-7ad" kind="show" id="7pS-lL-KfW"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -960,6 +989,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05f-DT-oId">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="eET-B4-HAE" kind="show" id="UrR-Om-Vvp"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -990,6 +1022,9 @@
                                                 <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNB-nw-7PL">
                                                     <rect key="frame" x="0.0" y="45" width="60" height="45"/>
                                                     <state key="normal" image="rec1.png"/>
+                                                    <connections>
+                                                        <segue destination="P4V-ya-XRg" kind="show" id="0Qs-pA-1WW"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -1016,158 +1051,38 @@
             </objects>
             <point key="canvasLocation" x="2349.375" y="-420"/>
         </scene>
-        <!--Collection View Controller-->
-        <scene sceneID="sh6-EI-4WS">
+        <!--View Controller-->
+        <scene sceneID="t04-bI-sB4">
             <objects>
-                <collectionViewController id="GOR-H7-sHA" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="JAw-lv-5V4">
+                <viewController id="P4V-ya-XRg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UdM-2b-MAd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fnM-U6-2rJ">
-                            <size key="itemSize" width="100" height="140"/>
-                            <size key="headerReferenceSize" width="50" height="100"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="reuseIdentifier" id="U2i-4X-sPl" customClass="AlimentoCollectionViewCell" customModule="CAM" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="100" width="100" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzF-Oc-SIg">
-                                            <rect key="frame" x="0.0" y="100" width="100" height="40"/>
-                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="17"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MKV-yZ-Cem">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                        </imageView>
-                                    </subviews>
-                                </view>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="MKV-yZ-Cem" secondAttribute="trailing" id="J1b-qD-PCL"/>
-                                    <constraint firstItem="MKV-yZ-Cem" firstAttribute="leading" secondItem="U2i-4X-sPl" secondAttribute="leading" id="J6c-dq-gcm"/>
-                                    <constraint firstItem="MKV-yZ-Cem" firstAttribute="top" secondItem="U2i-4X-sPl" secondAttribute="top" id="Jbh-R6-IU6"/>
-                                    <constraint firstAttribute="trailing" secondItem="IzF-Oc-SIg" secondAttribute="trailing" id="bkP-06-zBA"/>
-                                    <constraint firstItem="IzF-Oc-SIg" firstAttribute="top" secondItem="MKV-yZ-Cem" secondAttribute="bottom" id="fHP-bU-zow"/>
-                                    <constraint firstItem="IzF-Oc-SIg" firstAttribute="leading" secondItem="U2i-4X-sPl" secondAttribute="leading" id="krg-6c-j1m"/>
-                                    <constraint firstAttribute="bottom" secondItem="IzF-Oc-SIg" secondAttribute="bottom" id="lLu-Yy-otR"/>
-                                </constraints>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKv-nj-Bgy">
+                                <rect key="frame" x="50" y="70" width="220" height="160"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
+                                <state key="normal" title="Enviar Todo &amp; Terminar">
+                                    <color key="titleShadowColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <outlet property="outImageAlimento" destination="MKV-yZ-Cem" id="Fsc-Ab-f8p"/>
-                                    <outlet property="outLabelAlimento" destination="IzF-Oc-SIg" id="yAB-xz-9bb"/>
+                                    <segue destination="nV1-CJ-QOM" kind="showDetail" id="njY-Q8-KvL"/>
                                 </connections>
-                            </collectionViewCell>
-                        </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ftj-I0-s7D">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bPk-sW-GEz" userLabel="Top">
-                                    <rect key="frame" x="0.0" y="10" width="300" height="90"/>
-                                    <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="L83-mU-MSs">
-                                            <rect key="frame" x="0.0" y="0.0" width="60" height="90"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Datos Generales" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZy-AR-Jvk">
-                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fE-of-fPb">
-                                                    <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                    <state key="normal" image="rec1.png"/>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ubD-2Q-tOQ">
-                                            <rect key="frame" x="70" y="0.0" width="60" height="90"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alimentos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXy-IL-rcr">
-                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXO-ta-L0C">
-                                                    <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                    <state key="normal" image="rec1.png"/>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="z0d-Yq-qQv">
-                                            <rect key="frame" x="130" y="0.0" width="60" height="90"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aseo Personal y del Hogar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMn-yF-fCt">
-                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93Y-id-1nL">
-                                                    <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                    <state key="normal" image="rec1.png"/>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vMW-AL-mjd">
-                                            <rect key="frame" x="190" y="0.0" width="60" height="90"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transporte y Vivienda" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNd-JU-2TT">
-                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
-                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="10"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pi-vh-uMj">
-                                                    <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                    <state key="normal" image="rec1.png"/>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bhX-e3-PtH">
-                                            <rect key="frame" x="250" y="0.0" width="60" height="90"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enviar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbb-SQ-il5">
-                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxw-aP-LT1">
-                                                    <rect key="frame" x="0.0" y="45" width="60" height="45"/>
-                                                    <state key="normal" image="rec.png"/>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="90" id="JwQ-BU-nSx"/>
-                                    </constraints>
-                                </stackView>
-                            </subviews>
-                            <constraints>
-                                <constraint firstAttribute="trailing" secondItem="bPk-sW-GEz" secondAttribute="trailing" constant="10" id="4Jr-gx-Fnb"/>
-                                <constraint firstAttribute="bottom" secondItem="bPk-sW-GEz" secondAttribute="bottom" id="Phe-h4-XK4"/>
-                                <constraint firstItem="bPk-sW-GEz" firstAttribute="leading" secondItem="ftj-I0-s7D" secondAttribute="leading" constant="10" id="UUe-rv-0eq"/>
-                                <constraint firstItem="bPk-sW-GEz" firstAttribute="top" secondItem="ftj-I0-s7D" secondAttribute="top" constant="10" id="sGj-fm-W4c"/>
-                            </constraints>
-                        </collectionReusableView>
-                        <connections>
-                            <outlet property="dataSource" destination="GOR-H7-sHA" id="hys-nx-6aR"/>
-                            <outlet property="delegate" destination="GOR-H7-sHA" id="8M4-TX-JzP"/>
-                        </connections>
-                    </collectionView>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cvg-a5-0A0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DgK-Ac-vWa" firstAttribute="bottom" secondItem="OKv-nj-Bgy" secondAttribute="bottom" constant="250" id="Kiu-Um-ZR3"/>
+                            <constraint firstItem="OKv-nj-Bgy" firstAttribute="top" secondItem="DgK-Ac-vWa" secondAttribute="top" constant="50" id="bTo-Rt-KZH"/>
+                            <constraint firstItem="OKv-nj-Bgy" firstAttribute="leading" secondItem="DgK-Ac-vWa" secondAttribute="leading" constant="50" id="cc8-6D-bDA"/>
+                            <constraint firstItem="DgK-Ac-vWa" firstAttribute="trailing" secondItem="OKv-nj-Bgy" secondAttribute="trailing" constant="50" id="sSc-Xf-rj8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DgK-Ac-vWa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wg8-cR-6ab" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1591.875" y="-380"/>
+            <point key="canvasLocation" x="1607" y="-420"/>
         </scene>
         <!--Menu Table View Controller-->
         <scene sceneID="33K-3F-Tmi">
@@ -1456,36 +1371,118 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aviso de Privacidad " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgh-xr-C5s">
-                                <rect key="frame" x="50" y="90" width="220" height="24"/>
+                                <rect key="frame" x="50" y="50" width="220" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcg-eY-BfR">
+                                <rect key="frame" x="100" y="430" width="120" height="30"/>
+                                <state key="normal" title="Aceptar"/>
+                                <connections>
+                                    <segue destination="tPV-ce-afG" kind="show" id="nSu-4e-1mv"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWe-Wd-I2r">
-                                <rect key="frame" x="10" y="124" width="300" height="346"/>
+                                <rect key="frame" x="20" y="94" width="280" height="316"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">Por favor, antes de proporcionarnos tus datos personales, tómate un momento para leer el siguiente Aviso de Privacidad en el que informamos que, de conformidad con lo dispuesto por el Reglamento de Transparencia, Acceso a la Información Pública y Protección de Datos Personales para la Universidad Nacional Autónoma de México (en adelante “LA UNAM”), sobre cómo y con qué fines tratamos tu información personal.
+
+Al proporcionar dato al Centro de Análisis Multidisciplinario de la UNAM (en lo sucesivo “EL CAM”) se da por entendido que estás de acuerdo con los términos de este Aviso, las finalidades del tratamiento de los datos, así como los medios y procedimientos que ponemos a tu disposición para ejercer tus derechos de acceso, rectificación, cancelación y oposición en la selección V de este Aviso.
+
+I.        Fundamento legal universitario.
+
+Artículos del 12 al 19 del Reglamento de Transparencia, Acceso a la Información Pública y Protección de Datos Personales para LA UNAM.
+
+II.        Identidad y domicilio de la responsable.
+
+El Centro de Análisis Multidisciplinario de LA UNAM (en lo sucesivo “EL CAM”) con domicilio ubicado La Facultad de Economía, en Edificio Anexo B, 1er piso, cubículos 11 y 12 a un costado del auditorio Narciso Bassols, Circuito Interior s/n, Ciudad Universitaria, Coyoacán, C.P. 04510, México, D.F.
+
+III.        Datos personales que trata “EL CAM”.
+
+“EL CAM” recabará datos personales de identificación, todo con el propósito de cumplir con las finalidades estrictamente académica y científicas que dan lugar a la investigación realizada por este centro señaladas en este Aviso. “EL CAM” se compromete a tratar  bajo estrictas medidas de seguridad, garantizando siempre la confidencialidad de ellos.
+
+El tratamiento de los datos personales de identificación  tiene como propósito cumplir con las líneas de investigación científico académicas que son el espíritu en “EL CAM”.
+
+La recolección de datos personales por parte de “EL CAM”, se funda en el cumplimiento de las siguientes finalidades:
+
+Ofrecer los servicios y actividades académicas y científicas.
+Ofrecer la difusión de conocimientos del más alto nivel ético, científico, tecnológico y profesional.
+Actualizar base de datos sobre las líneas de investigación salariales, condiciones de trabajo, condiciones de vida de los trabajadores.
+Realizar reportes de investigación.
+IV.        Transferencia de Datos Personales
+
+“EL CAM” no realizará transferencia alguna de los datos que recaba y sólo transmitirá los datos necesarios en los casos previstos en la Ley Federal de Transparencia y Acceso a la Información y en el Reglamento de Transparencia, Acceso a la Información Pública y Protección de Datos Personales para la Universidad Nacional Autónoma de México.
+
+V.        Medios y procedimientos para ejercer sus Derechos ARCO y/o Revocar el Consentimiento
+
+Usted o su representante  legal podrá ejercer cualquiera de los derechos de acceso, rectificación, cancelación u oposición (en lo sucesivo “Derechos ARCO”), así como revocar su consentimiento para el tratamiento de sus datos personales enviando un correo electrónico a la Coordinación del Centro de Análisis Multidisciplinario de la Universidad Nacional Autónoma de México, a la dirección camacmx@yahoo.com.mx
+
+Para poder atender en tiempo y en forma sus Derechos ARCO es necesario que en su petición señale lo siguiente:
+
+El nombre del titular y su cuenta de correo electrónico para comunicarle la respuesta a su solicitud.
+Adjuntar el documento que acredite su identidad o, en su caso, la representación legal del titular.
+La descripción clara y precisa de los datos personales respecto de los que se busca ejercer alguno de los derechos antes mencionados.
+Cualquier otro elemento o documento que facilite la localización de los datos personales.
+Para el caso de las solicitudes de rectificación el titular deberá indicar las modificaciones a realizarse y aportar la documentación que sustente su petición.
+
+En caso de que la información proporcionada sea errónea o insuficiente, o bien, no se acompañe de los documentos de acreditación correspondientes, la Coordinación referida, dentro de los cinco (5) días hábiles siguientes a la recepción de la solicitud, podrá requerirle que aporte los elementos o documentos necesarios para dar trámite a la misma. Usted contará con quince (15) días hábiles para atender el requerimiento, contados a partir del día siguiente en que haya sido recibido. De no dar respuesta en dicho plazo, se tendrá por no presentada la solicitud correspondiente.
+
+La Coordinación, le comunicará la determinación adoptada, en un plazo máximo de veinte (20) días hábiles contados desde la fecha en que se recibió la solicitud, a efecto de que, si resulta procedente, haga efectiva la misma dentro de los quince (15) días hábiles siguientes a que se comunique la respuesta, la que se dará vía electrónica a la dirección de correo que se especifique en la solicitud.
+
+VI.        De la cookies o web bugs (tracking bugs, tags, page tags, or web beacons)
+
+Se entiende por cookie un archive de texto descargado automáticamente y almacenado en el disco duro del equipo de cómputo, Tablet o celular inteligente del usuario al navegar en la página de Internet específica, éste permite grabar en el servidor de Internet algunos datos.
+
+En tanto que tracking bugs son las imágenes, insertadas en la página o correo electrónico, que pueden ser utilizadas para monitorear el comportamiento de un visitante, así como almacenar información sobre la dirección IP[1] del usuario, duración del tiempo de interacción en la página.
+
+En este contexto, la información que se obtiene mediante la página web o el acceso ya sea mediante las computadoras ubicadas en instalaciones dentro de “EL CAM”, computadora portátil, dispositivos móviles entre otros, se utilizan cookies y tracking bugs, los que son generados automáticamente y graban datos personales cuando se genera una conexión al sitio, entre los que están:
+
+Tipo de navegador y sistema operativo.
+Dirección IP.
+Fecha, hora y lugar de visita.
+Cada usuario puede cambiar la configuración de las denominadas cookies, mediante un procedimiento dentro del navegador de Internet.
+
+El sitio web del “EL CAM” contiene enlaces con otros sitios web, si usted accede al hipervínculo de esos sitios, tenga en cuenta que estos pueden tener sus propios avisos de privacidad y que “EL CAM” no acepta ninguna responsabilidad derivada de las mismas.[2]
+
+VII.        Cambios al Aviso de Privacidad de “EL CAM”.
+
+“EL CAM” puede modificar, revisar o cambiar en el presente Aviso en cualquier momento de conformidad con el Reglamento de Transparencia, Acceso a la Información Pública y Protección de Datos Personales para la Universidad Nacional Autónoma de México y legislación universitaria aplicable. No obstante, tales cambios se darán a conocer por uno o varios de los siguientes medios:
+
+El sitio web oficial de “EL CAM”.
+Correo electrónico que usted nos haya proporcionado.
+ 
+
+01 de abril de 2014, versión 1. Coordinación del Centro de Análisis Multidisciplinario de la Facultad de Economía de la Universidad Nacional Autónoma de México.
+
+[1] La Dirección IP es número que identifica a cada dispositivo dentro de una red con protocolo IP.
+
+[2] La recomendación en este caso es que usted revise dichas políticas antes de enviar cualquier información personal a esos sitios web. La inclusión de cualquier vínculo a otros sitios web, no implica la aprobación o adhesión por parte de “EL CAM” a esas páginas o su contenido.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="b7D-tF-OwU" firstAttribute="trailing" secondItem="Fgh-xr-C5s" secondAttribute="trailing" constant="50" id="588-XA-NZW"/>
-                            <constraint firstItem="b7D-tF-OwU" firstAttribute="trailing" secondItem="UWe-Wd-I2r" secondAttribute="trailing" constant="10" id="8pI-eq-tWd"/>
-                            <constraint firstItem="Fgh-xr-C5s" firstAttribute="top" secondItem="b7D-tF-OwU" secondAttribute="top" constant="70" id="FNp-gL-hfF"/>
-                            <constraint firstItem="UWe-Wd-I2r" firstAttribute="leading" secondItem="b7D-tF-OwU" secondAttribute="leading" constant="10" id="Y4d-Up-ZSf"/>
-                            <constraint firstItem="UWe-Wd-I2r" firstAttribute="top" secondItem="Fgh-xr-C5s" secondAttribute="bottom" constant="20" id="eZl-lj-ogF"/>
-                            <constraint firstItem="UWe-Wd-I2r" firstAttribute="top" secondItem="Fgh-xr-C5s" secondAttribute="bottom" constant="10" id="eqH-MC-ut1"/>
-                            <constraint firstItem="b7D-tF-OwU" firstAttribute="bottom" secondItem="UWe-Wd-I2r" secondAttribute="bottom" constant="10" id="foU-s5-ggu"/>
-                            <constraint firstItem="Fgh-xr-C5s" firstAttribute="leading" secondItem="b7D-tF-OwU" secondAttribute="leading" constant="50" id="lDg-W3-tAh"/>
+                            <constraint firstItem="jcg-eY-BfR" firstAttribute="top" secondItem="UWe-Wd-I2r" secondAttribute="bottom" constant="20" id="6OK-cq-7Rc"/>
+                            <constraint firstItem="UWe-Wd-I2r" firstAttribute="top" secondItem="Fgh-xr-C5s" secondAttribute="bottom" constant="20" id="AUI-EF-Ad9"/>
+                            <constraint firstItem="Fgh-xr-C5s" firstAttribute="top" secondItem="b7D-tF-OwU" secondAttribute="top" constant="30" id="MXA-BK-Y3P"/>
+                            <constraint firstItem="b7D-tF-OwU" firstAttribute="trailing" secondItem="UWe-Wd-I2r" secondAttribute="trailing" constant="20" id="fz0-PS-yRq"/>
+                            <constraint firstItem="UWe-Wd-I2r" firstAttribute="top" secondItem="Fgh-xr-C5s" secondAttribute="bottom" constant="20" id="iSG-LH-NHa"/>
+                            <constraint firstItem="b7D-tF-OwU" firstAttribute="trailing" secondItem="Fgh-xr-C5s" secondAttribute="trailing" constant="50" id="lD2-oP-2P0"/>
+                            <constraint firstItem="b7D-tF-OwU" firstAttribute="bottom" secondItem="jcg-eY-BfR" secondAttribute="bottom" constant="20" id="oO4-cs-xvk"/>
+                            <constraint firstItem="Fgh-xr-C5s" firstAttribute="leading" secondItem="b7D-tF-OwU" secondAttribute="leading" constant="50" id="oRA-cV-hJC"/>
+                            <constraint firstItem="UWe-Wd-I2r" firstAttribute="leading" secondItem="b7D-tF-OwU" secondAttribute="leading" constant="20" id="phe-Rc-HQR"/>
+                            <constraint firstItem="jcg-eY-BfR" firstAttribute="leading" secondItem="b7D-tF-OwU" secondAttribute="leading" constant="100" id="uSk-2d-kr8"/>
+                            <constraint firstItem="jcg-eY-BfR" firstAttribute="top" secondItem="UWe-Wd-I2r" secondAttribute="bottom" constant="20" id="x5Z-5W-BJt"/>
+                            <constraint firstItem="b7D-tF-OwU" firstAttribute="trailing" secondItem="jcg-eY-BfR" secondAttribute="trailing" constant="100" id="zfD-V4-nXh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="b7D-tF-OwU"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3H2-Tx-a77" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-56" y="-525"/>
+            <point key="canvasLocation" x="-56.25" y="-525"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nHQ-BV-vaU">
@@ -1518,8 +1515,11 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="mJA-j0-ubr"/>
-        <segue reference="tlc-qk-6GE"/>
-        <segue reference="mhl-Y6-O5W"/>
+        <segue reference="nSu-4e-1mv"/>
+        <segue reference="Y1h-3z-8eh"/>
+        <segue reference="9DX-nW-vhI"/>
+        <segue reference="Nl6-FE-1YS"/>
+        <segue reference="cpA-P1-5Qh"/>
         <segue reference="NDt-03-XaB"/>
         <segue reference="Ft3-7N-5Gk"/>
     </inferredMetricsTieBreakers>

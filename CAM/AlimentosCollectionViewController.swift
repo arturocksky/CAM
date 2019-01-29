@@ -20,6 +20,7 @@ private var y = 0
 class AlimentosCollectionViewController: UICollectionViewController, UIPickerViewDelegate,UIPickerViewDataSource{
     var ref: DatabaseReference!
     var user: String = "anonimo"
+    var color: CGColor = UIColor.white.cgColor
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2
@@ -50,7 +51,7 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
     }
     
     
-    let Alimentos:[String] = ["Tomate Verde","Zanahoria","Calabacita","Papa Blanca","Aguacate Hass","Lechuga Romana","Lechuga Orejona","Cebolla Blanca","Chile Serrano","Jitomate Saladette","Limon sin Semilla","Chicharo","Ejote","Pepino","Chile Poblano","Naranja","Piña","Papaya","Platano Tabasco","Manzana","Higado de Res","Bistec de Res","Retazo de Res","Pollo Entero","Pechuga de Pollo","Pierna con Muslo","Retazo de Pollo Maciza-Pierna","Pescado Sierra","Lentejas","Frijol Bayo","Arroz","Sopa de Pasta","Aceite","Sardina","Atun en Agua o Aceite","Sal Refinada","Azucar Estandar","Cafe","Leche Pasteurizada","Leche Liconsa","Queso Blanco","Agua","Pan Dulce","Bolillo","Tortilla de Maiz","Jabon de Tocador","Detergente en Polvo","Nopales","Huevo","Papel Higienico"]
+    let Alimentos:[String] = ["Tomate Verde","Zanahoria","Calabacita","Papa Blanca","Aguacate Hass","Lechuga Romana","Lechuga Orejona","Cebolla Blanca","Chile Serrano","Jitomate Saladette","Limon sin Semilla","Chicharo","Ejote","Pepino","Chile Poblano","Naranja","Piña","Papaya","Platano Tabasco","Manzana","Higado de Res","Bistec de Res","Retazo de Res","Pollo Entero","Pechuga de Pollo","Pierna con Muslo","Retazo de Pollo Maciza-Pierna","Pescado Sierra","Lentejas","Frijol Bayo","Arroz","Sopa de Pasta","Aceite","Sardina","Atun en Agua o Aceite","Sal Refinada","Azucar Estandar","Cafe","Leche Pasteurizada","Leche Liconsa","Queso Blanco","Agua","Pan Dulce","Bolillo","Tortilla de Maiz","Nopales","Huevo"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +59,8 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
        ref = Database.database().reference()
         if let currentUser = Auth.auth().currentUser?.uid {
             user = currentUser
+            
+            
         }
         
         
@@ -119,6 +122,8 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         cell.layer.shadowOpacity = 1.0
         cell.layer.masksToBounds = false;
         cell.layer.shadowPath = UIBezierPath(roundedRect:cell.bounds, cornerRadius:cell.contentView.layer.cornerRadius).cgPath
+        
+         cell.layer.backgroundColor = color
 
     
         return cell
@@ -126,6 +131,8 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
     
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let cell = collectionView.cellForItem (at: indexPath)as! AlimentoCollectionViewCell
         
         let image = UIImage (named: "\(Alimentos[indexPath.row])L.png")
         let w = Alimentos[indexPath.row]
@@ -163,8 +170,15 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
            // print("Seleccion", self.pickerView(pickerView, titleForRow: x , forComponent: indexPath.row) as Any)
            // print("Seleccion", x)
             // print("Seleccion", y)
+            // self.color = UIColor.black.cgColor
             let nuevo = ["alimento": w,"pesos": x, "centavos": y] as [String : Any]
             self.ref.child("users").child(self.user).updateChildValues(nuevo)
+          //  self.cell.outLabelAlimento.text = Alimentos[indexPath.row]
+            
+           //
+            cell.layer.backgroundColor = UIColor.green.cgColor
+            cell.outLabelAlimento.text = "$" + String(x) + "." + String(y)
+            
         })
         
        
@@ -198,6 +212,14 @@ class AlimentosCollectionViewController: UICollectionViewController, UIPickerVie
         let cancelAction = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
         alert.addAction(cancelAction)
         self.parent!.present(alert, animated: true)  */
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        
+     //   let cell = collectionView.cellForItem (at: indexPath)
+       // cell?.layer.backgroundColor = UIColor.white.cgColor
+        //self.color = UIColor.black.cgColor
+        
     }
     
     

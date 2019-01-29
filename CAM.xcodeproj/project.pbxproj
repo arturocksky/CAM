@@ -67,6 +67,18 @@
 		698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 698C4EDD21236AF0003E4CDD /* logo-cam.png */; };
 		6997116A2123588D0018FC19 /* ViewControllerInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699711692123588D0018FC19 /* ViewControllerInicio.swift */; };
 		6997116C212361BE0018FC19 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6997116B212361BE0018FC19 /* MenuTableViewController.swift */; };
+		699A415421FFA65200BAD608 /* Hipoteca.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A414821FFA63F00BAD608 /* Hipoteca.png */; };
+		699A415521FFA65200BAD608 /* Metrobus.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A414921FFA64000BAD608 /* Metrobus.png */; };
+		699A415621FFA65200BAD608 /* HipotecaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A414A21FFA64200BAD608 /* HipotecaL.png */; };
+		699A415721FFA65200BAD608 /* AutobusL.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A414B21FFA64300BAD608 /* AutobusL.png */; };
+		699A415821FFA65200BAD608 /* Gas EstacionarioL.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A414C21FFA64400BAD608 /* Gas EstacionarioL.png */; };
+		699A415921FFA65200BAD608 /* MetrobusL.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A414D21FFA64600BAD608 /* MetrobusL.png */; };
+		699A415A21FFA65200BAD608 /* Autobus.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A414E21FFA64800BAD608 /* Autobus.png */; };
+		699A415B21FFA65200BAD608 /* Gas DomesticoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A414F21FFA64900BAD608 /* Gas DomesticoL.png */; };
+		699A415C21FFA65200BAD608 /* Gas Domestico.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A415021FFA64C00BAD608 /* Gas Domestico.png */; };
+		699A415D21FFA65200BAD608 /* Renta.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A415121FFA64D00BAD608 /* Renta.png */; };
+		699A415E21FFA65200BAD608 /* Gas Estacionario.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A415221FFA65000BAD608 /* Gas Estacionario.png */; };
+		699A415F21FFA65200BAD608 /* RentaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A415321FFA65100BAD608 /* RentaL.png */; };
 		699DD838214F5CDA00ADBFDA /* AlertController+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699DD837214F5CDA00ADBFDA /* AlertController+image.swift */; };
 		69A070BD21267738000A14DA /* ViewControllerSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070BC21267738000A14DA /* ViewControllerSesion.swift */; };
 		69A070BF21267755000A14DA /* ViewControllerPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A070BE21267755000A14DA /* ViewControllerPerfil.swift */; };
@@ -80,6 +92,14 @@
 		69B73F4421EAA4CC00F26CEB /* TransporteCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B73F4321EAA4CC00F26CEB /* TransporteCollectionViewController.swift */; };
 		69B8E95921261BDE007D9554 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95721261BDD007D9554 /* logout.png */; };
 		69B8E95A21261BDE007D9554 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B8E95821261BDD007D9554 /* user.png */; };
+		69BAA15221FCDDE6007A80E4 /* ShampooL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA15021FCDDD5007A80E4 /* ShampooL.png */; };
+		69BAA15321FCDDE6007A80E4 /* Shampoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA15121FCDDE6007A80E4 /* Shampoo.png */; };
+		69BAA15821FCE095007A80E4 /* Desinfectante.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA15421FCE08E007A80E4 /* Desinfectante.png */; };
+		69BAA15921FCE095007A80E4 /* DesinfectanteL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA15521FCE090007A80E4 /* DesinfectanteL.png */; };
+		69BAA15A21FCE095007A80E4 /* Pasta Dental.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA15621FCE092007A80E4 /* Pasta Dental.png */; };
+		69BAA15B21FCE095007A80E4 /* Pasta DentalL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA15721FCE095007A80E4 /* Pasta DentalL.png */; };
+		69BAA15E21FCE121007A80E4 /* DesodoranteL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA15C21FCE11F007A80E4 /* DesodoranteL.png */; };
+		69BAA15F21FCE121007A80E4 /* Desodorante.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BAA15D21FCE120007A80E4 /* Desodorante.png */; };
 		69E63DED215DB41B00885284 /* Jitomate SaladetteL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE5215DB41700885284 /* Jitomate SaladetteL.png */; };
 		69E63DEE215DB41B00885284 /* Lechuga OrejonaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE6215DB41700885284 /* Lechuga OrejonaL.png */; };
 		69E63DEF215DB41B00885284 /* Lechuga RomanaL.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E63DE7215DB41800885284 /* Lechuga RomanaL.png */; };
@@ -209,6 +229,18 @@
 		698C4EDD21236AF0003E4CDD /* logo-cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-cam.png"; sourceTree = "<group>"; };
 		699711692123588D0018FC19 /* ViewControllerInicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInicio.swift; sourceTree = "<group>"; };
 		6997116B212361BE0018FC19 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		699A414821FFA63F00BAD608 /* Hipoteca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hipoteca.png; sourceTree = "<group>"; };
+		699A414921FFA64000BAD608 /* Metrobus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Metrobus.png; sourceTree = "<group>"; };
+		699A414A21FFA64200BAD608 /* HipotecaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HipotecaL.png; sourceTree = "<group>"; };
+		699A414B21FFA64300BAD608 /* AutobusL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutobusL.png; sourceTree = "<group>"; };
+		699A414C21FFA64400BAD608 /* Gas EstacionarioL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gas EstacionarioL.png"; sourceTree = "<group>"; };
+		699A414D21FFA64600BAD608 /* MetrobusL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MetrobusL.png; sourceTree = "<group>"; };
+		699A414E21FFA64800BAD608 /* Autobus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Autobus.png; sourceTree = "<group>"; };
+		699A414F21FFA64900BAD608 /* Gas DomesticoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gas DomesticoL.png"; sourceTree = "<group>"; };
+		699A415021FFA64C00BAD608 /* Gas Domestico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gas Domestico.png"; sourceTree = "<group>"; };
+		699A415121FFA64D00BAD608 /* Renta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Renta.png; sourceTree = "<group>"; };
+		699A415221FFA65000BAD608 /* Gas Estacionario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gas Estacionario.png"; sourceTree = "<group>"; };
+		699A415321FFA65100BAD608 /* RentaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RentaL.png; sourceTree = "<group>"; };
 		699DD837214F5CDA00ADBFDA /* AlertController+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+image.swift"; sourceTree = "<group>"; };
 		69A070BC21267738000A14DA /* ViewControllerSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSesion.swift; sourceTree = "<group>"; };
 		69A070BE21267755000A14DA /* ViewControllerPerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPerfil.swift; sourceTree = "<group>"; };
@@ -222,6 +254,14 @@
 		69B73F4321EAA4CC00F26CEB /* TransporteCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransporteCollectionViewController.swift; sourceTree = "<group>"; };
 		69B8E95721261BDD007D9554 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
 		69B8E95821261BDD007D9554 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		69BAA15021FCDDD5007A80E4 /* ShampooL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShampooL.png; sourceTree = "<group>"; };
+		69BAA15121FCDDE6007A80E4 /* Shampoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shampoo.png; sourceTree = "<group>"; };
+		69BAA15421FCE08E007A80E4 /* Desinfectante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Desinfectante.png; sourceTree = "<group>"; };
+		69BAA15521FCE090007A80E4 /* DesinfectanteL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesinfectanteL.png; sourceTree = "<group>"; };
+		69BAA15621FCE092007A80E4 /* Pasta Dental.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pasta Dental.png"; sourceTree = "<group>"; };
+		69BAA15721FCE095007A80E4 /* Pasta DentalL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pasta DentalL.png"; sourceTree = "<group>"; };
+		69BAA15C21FCE11F007A80E4 /* DesodoranteL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DesodoranteL.png; sourceTree = "<group>"; };
+		69BAA15D21FCE120007A80E4 /* Desodorante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Desodorante.png; sourceTree = "<group>"; };
 		69E63DE5215DB41700885284 /* Jitomate SaladetteL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jitomate SaladetteL.png"; sourceTree = "<group>"; };
 		69E63DE6215DB41700885284 /* Lechuga OrejonaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lechuga OrejonaL.png"; sourceTree = "<group>"; };
 		69E63DE7215DB41800885284 /* Lechuga RomanaL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lechuga RomanaL.png"; sourceTree = "<group>"; };
@@ -315,6 +355,18 @@
 				694AA068215E96FF0035475B /* Tomate VerdeL.png */,
 				694AA064215E96910035475B /* Papel Higienico.png */,
 				694AA065215E96920035475B /* Papel HigienicoL.png */,
+				699A414E21FFA64800BAD608 /* Autobus.png */,
+				699A414B21FFA64300BAD608 /* AutobusL.png */,
+				699A415021FFA64C00BAD608 /* Gas Domestico.png */,
+				699A414F21FFA64900BAD608 /* Gas DomesticoL.png */,
+				699A415221FFA65000BAD608 /* Gas Estacionario.png */,
+				699A414C21FFA64400BAD608 /* Gas EstacionarioL.png */,
+				699A414821FFA63F00BAD608 /* Hipoteca.png */,
+				699A414A21FFA64200BAD608 /* HipotecaL.png */,
+				699A414921FFA64000BAD608 /* Metrobus.png */,
+				699A414D21FFA64600BAD608 /* MetrobusL.png */,
+				699A415121FFA64D00BAD608 /* Renta.png */,
+				699A415321FFA65100BAD608 /* RentaL.png */,
 				694AA061215E96110035475B /* Nopales.png */,
 				694AA060215E96110035475B /* NopalesL.png */,
 				694AA05C215E95790035475B /* Huevo.png */,
@@ -345,6 +397,12 @@
 				690FE1D7215E884B003DCB66 /* Sal RefinadaL.png */,
 				690FE1D4215E879D003DCB66 /* Atun en Agua o Aceite.png */,
 				690FE1D3215E879C003DCB66 /* Atun en Agua o AceiteL.png */,
+				69BAA15D21FCE120007A80E4 /* Desodorante.png */,
+				69BAA15C21FCE11F007A80E4 /* DesodoranteL.png */,
+				69BAA15421FCE08E007A80E4 /* Desinfectante.png */,
+				69BAA15521FCE090007A80E4 /* DesinfectanteL.png */,
+				69BAA15621FCE092007A80E4 /* Pasta Dental.png */,
+				69BAA15721FCE095007A80E4 /* Pasta DentalL.png */,
 				69E63E51215DDBDB00885284 /* Sardina.png */,
 				69E63E52215DDBDC00885284 /* SardinaL.png */,
 				69E63E4D215DD7C100885284 /* Aceite.png */,
@@ -409,6 +467,8 @@
 				69E63DE7215DB41800885284 /* Lechuga RomanaL.png */,
 				69E63DEA215DB41A00885284 /* ManzanaL.png */,
 				69E63DEB215DB41A00885284 /* Papa BlancaL.png */,
+				69BAA15121FCDDE6007A80E4 /* Shampoo.png */,
+				69BAA15021FCDDD5007A80E4 /* ShampooL.png */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -555,6 +615,7 @@
 				69E63E3B215DD1C500885284 /* LentejasL.png in Resources */,
 				690FE1D6215E879D003DCB66 /* Atun en Agua o Aceite.png in Resources */,
 				690FE1D9215E884B003DCB66 /* Sal RefinadaL.png in Resources */,
+				699A415821FFA65200BAD608 /* Gas EstacionarioL.png in Resources */,
 				694AA04E215E921A0035475B /* Bolillo.png in Resources */,
 				69E63E28215DC7A900885284 /* Retazo de Res.png in Resources */,
 				690F2D84213B5D2900290D41 /* Jitomate Saladette.png in Resources */,
@@ -572,32 +633,42 @@
 				69E63E08215DC03E00885284 /* Pepino.png in Resources */,
 				6915F7F1212522670084BB18 /* number2.png in Resources */,
 				69E63E32215DD0C100885284 /* Retazo de Pollo Maciza-Pierna.png in Resources */,
+				699A415621FFA65200BAD608 /* HipotecaL.png in Resources */,
 				694AA062215E96120035475B /* NopalesL.png in Resources */,
 				690FE1D5215E879D003DCB66 /* Atun en Agua o AceiteL.png in Resources */,
+				69BAA15E21FCE121007A80E4 /* DesodoranteL.png in Resources */,
 				69E63E3C215DD1C500885284 /* Pechuga de PolloL.png in Resources */,
 				69E63E2B215DC88400885284 /* Pollo Entero.png in Resources */,
 				69E63E34215DD0C100885284 /* Pierna con MusloL.png in Resources */,
 				694AA063215E96120035475B /* Nopales.png in Resources */,
+				69BAA15A21FCE095007A80E4 /* Pasta Dental.png in Resources */,
 				698C4EDF21236AF0003E4CDD /* logo-cam.png in Resources */,
+				69BAA15821FCE095007A80E4 /* Desinfectante.png in Resources */,
 				69E63E13215DC3DE00885284 /* Piña.png in Resources */,
 				69E63E4F215DD7C200885284 /* Aceite.png in Resources */,
 				69E63E03215DBF5900885284 /* Ejote.png in Resources */,
 				69E63E53215DDBDE00885284 /* Sardina.png in Resources */,
 				69E63E0B215DC17A00885284 /* Chile Poblano.png in Resources */,
 				694AA03A215E8E280035475B /* Leche Pasteurizada.png in Resources */,
+				699A415721FFA65200BAD608 /* AutobusL.png in Resources */,
 				79F18F3F216AB24000E62B4C /* GoogleService-Info.plist in Resources */,
 				69E63E24215DC6D100885284 /* Bistec de Res.png in Resources */,
 				690FE1E1215E8BCA003DCB66 /* CafeL.png in Resources */,
+				699A415F21FFA65200BAD608 /* RentaL.png in Resources */,
 				69E63DEE215DB41B00885284 /* Lechuga OrejonaL.png in Resources */,
 				690F2D8E213B68AC00290D41 /* Papa Blanca.png in Resources */,
 				69E63DF1215DB41B00885284 /* Chile SerranoL.png in Resources */,
 				694AA05B215E94E60035475B /* Detergente en Polvo.png in Resources */,
 				694AA057215E93AB0035475B /* Jabon de Tocador.png in Resources */,
+				699A415C21FFA65200BAD608 /* Gas Domestico.png in Resources */,
 				690FE1E2215E8BCA003DCB66 /* Cafe.png in Resources */,
+				699A415921FFA65200BAD608 /* MetrobusL.png in Resources */,
 				6907547F2139036300953A8D /* Manzana.png in Resources */,
 				694AA047215E90B10035475B /* Agua.png in Resources */,
 				694AA03E215E8F530035475B /* Leche Liconsa.png in Resources */,
 				69E63E4C215DD69B00885284 /* Sopa de PastaL.png in Resources */,
+				699A415A21FFA65200BAD608 /* Autobus.png in Resources */,
+				69BAA15321FCDDE6007A80E4 /* Shampoo.png in Resources */,
 				69E63E10215DC2E800885284 /* NaranjaL.png in Resources */,
 				694AA052215E92C90035475B /* Tortilla de Maiz.png in Resources */,
 				69E63DF3215DB41B00885284 /* Papa BlancaL.png in Resources */,
@@ -605,24 +676,32 @@
 				69E63E17215DC45000885284 /* Papaya.png in Resources */,
 				694AA066215E96920035475B /* Papel Higienico.png in Resources */,
 				694AA043215E8FBA0035475B /* Queso Blanco.png in Resources */,
+				69BAA15F21FCE121007A80E4 /* Desodorante.png in Resources */,
 				69E63E1F215DC61500885284 /* Higado de Res.png in Resources */,
 				694AA067215E96920035475B /* Papel HigienicoL.png in Resources */,
+				699A415421FFA65200BAD608 /* Hipoteca.png in Resources */,
 				690F2D88213B60C900290D41 /* Cebolla Blanca.png in Resources */,
 				694AA046215E90B10035475B /* AguaL.png in Resources */,
+				699A415D21FFA65200BAD608 /* Renta.png in Resources */,
 				694AA056215E93AB0035475B /* Jabon de TocadorL.png in Resources */,
 				694AA06E215E97FE0035475B /* CalabacitaL.png in Resources */,
+				699A415521FFA65200BAD608 /* Metrobus.png in Resources */,
+				69BAA15921FCE095007A80E4 /* DesinfectanteL.png in Resources */,
 				690FE1DE215E8B1F003DCB66 /* Azucar EstandarL.png in Resources */,
 				694AA06B215E97000035475B /* Tomate Verde.png in Resources */,
+				699A415E21FFA65200BAD608 /* Gas Estacionario.png in Resources */,
 				690F2D8B213B618500290D41 /* Zanahoria.png in Resources */,
 				69E63E3F215DD26F00885284 /* Frijol BayoL.png in Resources */,
 				69E63E0C215DC17A00885284 /* Chile PoblanoL.png in Resources */,
 				69E63DED215DB41B00885284 /* Jitomate SaladetteL.png in Resources */,
 				69E63E43215DD4DA00885284 /* Pescado Sierra.png in Resources */,
+				69BAA15221FCDDE6007A80E4 /* ShampooL.png in Resources */,
 				694AA06F215E97FE0035475B /* Calabacita.png in Resources */,
 				690FE1DA215E884B003DCB66 /* Sal Refinada.png in Resources */,
 				694AA03F215E8F530035475B /* Leche LiconsaL.png in Resources */,
 				69E63DFA215DBBBE00885284 /* Limon sin Semilla.png in Resources */,
 				694AA04F215E921A0035475B /* BolilloL.png in Resources */,
+				69BAA15B21FCE095007A80E4 /* Pasta DentalL.png in Resources */,
 				6915F7F0212522670084BB18 /* number1.png in Resources */,
 				69E63DFD215DBC8600885284 /* Chicharo.png in Resources */,
 				69E63DFE215DBC8600885284 /* ChicharoL.png in Resources */,
@@ -639,6 +718,7 @@
 				69E63E20215DC61500885284 /* Higado de ResL.png in Resources */,
 				69E63E18215DC45000885284 /* PapayaL.png in Resources */,
 				69E63E00215DBD2300885284 /* Aguacate HassL.png in Resources */,
+				699A415B21FFA65200BAD608 /* Gas DomesticoL.png in Resources */,
 				690F2D86213B5F7800290D41 /* Lechuga Orejona.png in Resources */,
 				69E63E3A215DD1C500885284 /* Lentejas.png in Resources */,
 				694AA05E215E957A0035475B /* Huevo.png in Resources */,
